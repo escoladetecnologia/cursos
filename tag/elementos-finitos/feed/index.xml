@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>elementos finitos &#8211; Upcarreira</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Cursos Online de Tecnologia</description>
+	<lastBuildDate>Thu, 14 Jun 2018 16:38:29 +0000</lastBuildDate>
+	<language>pt-BR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.4</generator>
+	<item>
+		<title>Mini Curso Elementos Finitos Gratuito</title>
+		<link>./../../../mini-curso-elementos-finitos-gratuito/index.html</link>
+					<comments>./../../../mini-curso-elementos-finitos-gratuito/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Thu, 14 Jun 2018 16:38:29 +0000</pubDate>
+				<category><![CDATA[Engenharia Civil]]></category>
+		<category><![CDATA[curso elementos finitos]]></category>
+		<category><![CDATA[elementos finitos]]></category>
+		<guid isPermaLink="false">https://upcarreira.com/blog/?p=911</guid>
+
+					<description><![CDATA[Mini Curso Elementos Finitos Gratuito Aprenda Elementos Finitos de uma vez por toda! O mercado de analista estrutural é um dos mais promissores da atualidade, existem poucos profissionais qualificados para tanta demanda, o grande motivo disso é a má formação dos alunos pelas universidades, pensando nisso, a UPCarreira Educação Profissional, desenvolveu um Mini Curso de [&#8230;]]]></description>
+		
+					<wfw:commentRss>./../../../mini-curso-elementos-finitos-gratuito/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
