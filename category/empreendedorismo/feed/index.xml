@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Empreendedorismo &#8211; Upcarreira</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Cursos Online de Tecnologia</description>
+	<lastBuildDate>Thu, 28 Jan 2021 03:44:21 +0000</lastBuildDate>
+	<language>pt-BR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.8.4</generator>
+	<item>
+		<title>4 Passos Simples de Como Validar sua Ideia e Lucrar Mais</title>
+		<link>./../../../4-passos-simples-de-como-validar-sua-ideia-e-lucrar-mais/index.html</link>
+					<comments>./../../../4-passos-simples-de-como-validar-sua-ideia-e-lucrar-mais/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Thu, 28 Jan 2021 03:44:21 +0000</pubDate>
+				<category><![CDATA[Empreendedorismo]]></category>
+		<category><![CDATA[empreendedorismo]]></category>
+		<category><![CDATA[empreender]]></category>
+		<guid isPermaLink="false">https://upcarreira.com/blog/?p=1002</guid>
+
+					<description><![CDATA[Você vai aprender neste artigo os 4 Passos Simples de Como Validar sua Ideia e Lucrar Mais Validar uima ideia de negócio, acredito eu que seja a tarefa mais dificíl para todo e qualquer empreendedor que deseja abrir ou alavancar um negócio. Por esse motivo, preparei um Infográfico com apenas 4 passos simples de como [&#8230;]]]></description>
+		
+					<wfw:commentRss>./../../../4-passos-simples-de-como-validar-sua-ideia-e-lucrar-mais/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>COMO SER UM ENGENHEIRO EMPREENDEDOR DE SUCESSO?</title>
+		<link>./../../../como-ser-um-empreendedor-de-sucesso/index.html</link>
+					<comments>./../../../como-ser-um-empreendedor-de-sucesso/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Mon, 27 Jan 2020 22:43:04 +0000</pubDate>
+				<category><![CDATA[Empreendedorismo]]></category>
+		<category><![CDATA[abrir negócio]]></category>
+		<category><![CDATA[empreendedor]]></category>
+		<category><![CDATA[empreendedorismo]]></category>
+		<category><![CDATA[engenheiro empreendedor]]></category>
+		<guid isPermaLink="false">https://upcarreira.com/blog/?p=888</guid>
+
+					<description><![CDATA[COMO SER UM ENGENHEIRO EMPREENDEDOR DE SUCESSO? VOCÊ JÁ TEVE ESCUTADO ALGUÉM FALAR &#8220;ESTUDE PARA SER ALGUÉM NA VIDA&#8221;, PRINCIPALMENTE QUANDO CRIANÇA. &#160; Vamos ver neste artigo como você pode ser um Engenheiro Empreendedor de Sucesso. Muita das vezes nossos familiares e a sociedade nos induzem a pensar que para ser bem-sucedido devemos passar em [&#8230;]]]></description>
+		
+					<wfw:commentRss>./../../../como-ser-um-empreendedor-de-sucesso/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>5 benefícios para manter a saúde mental em dia</title>
+		<link>./../../../5-beneficios-para-manter-a-saude-mental-em-dia/index.html</link>
+					<comments>./../../../5-beneficios-para-manter-a-saude-mental-em-dia/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<pubDate>Sun, 04 Aug 2019 00:45:31 +0000</pubDate>
+				<category><![CDATA[Empreendedorismo]]></category>
+		<category><![CDATA[curso engenheiro civil]]></category>
+		<category><![CDATA[cursos engenharia civil]]></category>
+		<category><![CDATA[estudar]]></category>
+		<category><![CDATA[estudos]]></category>
+		<category><![CDATA[saúde mental]]></category>
+		<guid isPermaLink="false">https://upcarreira.com/blog/?p=707</guid>
+
+					<description><![CDATA[Como os seus estudos podem ajudar com a sua saúde mental como fazer para: Prevenir doenças Melhorar a socialização  Elevar sua autoestima  Lhe Dá novo sentido para vida  Gostou? Não deixe de ler&#8230;. A reserva cognitiva (RC) é a capacidade que o cérebro tem de armazenar as habilidades aprendidas ao longo do tempo, fator esse que pode diminuir [&#8230;]]]></description>
+		
+					<wfw:commentRss>./../../../5-beneficios-para-manter-a-saude-mental-em-dia/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
