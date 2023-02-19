@@ -1,30 +1,49 @@
 <!DOCTYPE html>
-<html>
-  <head>
-	
-	<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-ND2BWD');</script>
-	<!-- End Google Tag Manager -->
+<html lang="pt-br">
+	<head>
 
-	<script src="https://kit.fontawesome.com/c712d43ead.js" crossorigin="anonymous"></script>
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
-	<meta charset="UTF-8">
-    <title>Upcarreira | Cursos Online Tecnologia | Escola Online</title>
-	<meta charset="utf-8">
-	<meta name="description" content="Upcarreira | Cursos Online Tecnologia. ">
-	<link rel="canonical" href="https://www.upcarreira.com.br/curso-python">
-	<meta name="keywords" content="curso de python, programação em python, python para iniciantes, python, curso python">
-	<style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Upcarreira | Cursos Online de Tecnologia | Escola Online Tecnologia</title>
+<meta name="description" content="Upcarreira | Cursos Online de Tecnologia. ">
+<link rel="canonical" href="https://www.upcarreira.com.br">
+<meta name="keywords" content="cursos online tecnologia, dev, programação, escola online de tecnologia, cursos de programação, cursos engenharia civil, cursos de marketing digital, cursos online">
+	
+<!-- Google Tag Manager -->
+<script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-ND2BWD');
+</script>
+<!-- End Google Tag Manager -->
+
+<script src="https://kit.fontawesome.com/c712d43ead.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+<!-- adds jQuery libraries -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+<!-- adds ajax and bootstrap libraries -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!-- adds bootstrap libraries -->
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+
+
+<style>
 
 		.container-topo {
 		
 		background-color: #000001;
 		width: 100vw;
 		box-sizing: border-box;
+		margin-top: 50px;
+		
 	
 		}
 
@@ -39,12 +58,13 @@
 		  
 		}
 
-		body {
+		.body {
 		  background: linear-gradient(to left, #ffffff, #eceaea);
 		  color: rgb(0, 0, 0);
 		  font-size: 18px;
 		  font-family: Arial, sans-serif;
 		  overflow-x: hidden;
+		  
 		}
 	  
 		.category-title {
@@ -60,18 +80,19 @@
 		  margin-top: 20px;
 		  margin: 0;
 		  
+		  
 		}
 
 		.container-tecnologia {
     text-align: center;
-    padding: 0 130px;
+    padding: 0 50px;
 }
 
 .container-tecnologia p {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 24px;
     color: #181717;
     text-align: justify;
@@ -126,10 +147,10 @@
 		}
 
 		.container-banner img {
-
 			width: 100vw;
-		  height: auto;
-		  margin: 0;
+		    height: auto;
+		    margin: 0;
+			align-content: center;
 	
 
 		}
@@ -150,8 +171,9 @@
 	  
 		/* Define o estilo para a descrição de cada categoria */
 		.category-description {
-		  font-size: 16x;
+		  font-size: 18px;
 		  text-align: left;
+		  margin-top: 20px;
 		}
 
 
@@ -186,75 +208,54 @@
 			background-color: #006b3f;
 		}
 
-		footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
+.footer-social-links-container, footer {
   background-color: black;
   color: white;
-  padding: 20px;
-  width: 100%;
-}
+  font-size: 18px;
+  margin-top: 20px; /* Adiciona um espaço superior de 20px no rodapé */
 
-footer .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-footer .social-links {
-  display: flex;
-  margin-top: 10px;
-}
-
-footer .social-links a {
-  margin-right: 10px;
-}
-
-.footer-social-links-container {
-  display: flex;
-  align-items: center;
-}
-
-
-
-footer div {
-  display: flex;
-  justify-content: space-between;
-}
-
-footer div h4 {
-  margin-bottom: 10px;
   
 }
 
-footer div p {
-  margin: 0;
-  margin-bottom: 10px;
+
+
+.footer-social-links-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 32px;
+	margin-bottom: 32px;
+	background-color: #000001;
+	height: 100%;
 }
 
-footer a {
-  color: white;
-  font-size: 20px;
-  margin-right: 10px;
+.footer-social-links-container a {
+  margin-left: 32px;
+  margin-right: 32px;
+  
 }
 
-footer a:hover {
-  color: gray;
+footer > p {
+  margin-left: 50px; /* Adiciona um espaço lateral esquerdo de 20px no texto do rodapé */
+  margin-bottom: 20px; /* Adiciona um espaço inferior de 20px no parágrafo */
+  text-align: center;
+
+
 }
 
-footer p:nth-child(2) {
-  margin-top: 20px;
+.footer-social-links-container a i {
+  font-size: 24px; /* Aumenta o tamanho dos ícones */
+}
+
+.container-rodape {
   text-align: center;
 }
 
-footer p:nth-child(3) {
-  margin-top: 10px;
-  font-style: italic;
-  text-align: center;
-}
+
+
+
+
+
 
 
 
@@ -289,23 +290,51 @@ grid-template-columns: repeat(1, 1fr);
 </style>
 	  
   </head>
+
+  <!-- navbar navbar-inverse navbar-static-top used for static hamburger menu -->
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+	<div class="container">
+	<!-- container gives content bootstrap alignment -->
+	<div class="navbar-header">
+	<!-- navbar-header gives header -->
+	<!-- navbar-toggle collapsed for hide the content -->
+	<button type="button" class="navbar-toggle collapsed"
+	data-toggle="collapse" data-target="#menu">
+	<!-- sr-only gives feature, hides elements from all devices except screen -->
+	<span class="sr-only">Hamburger Menu</span> <span class="icon-bar"></span>
+	<span class="icon-bar"></span> <span class="icon-bar"></span>
+	<!-- icon-bar creates structure like triple equal -->
+	</button>
+	</div>
+	<!-- Collect the nav links, forms, and other content for toggling -->
+	<div class="collapse navbar-collapse" id="menu">
+	<!--nav navbar-nav used to sets the navigation bar size( either increase or reduce) -->
+	<ul class="nav navbar-nav">
+	<li><a href="https://www.upcarreira.com.br/cursos-tecnologia/">Tecnologia e Programação</a></li>
+	<li><a href="https://www.upcarreira.com.br/cursos-negocios/">Negócios</a></li>
+	<li><a href="https://www.upcarreira.com.br/cursos-marketing-digital/">Marketing Digital</a></li>
+	<li><a href="https://www.upcarreira.com.br/cursos-engenharia-civil">Engenharia Civil e Arquitetura</a></li>
+	<li><a href="https://www.upcarreira.com.br/contato/index.html">Contato</a></li>
+	</ul>
+	</div>
+	</div>
+	</nav>
+
   
   <div class="container-topo">
     <a href="https://www.upcarreira.com.br">
         <img class="logo" src="./img/Cursos_Online_de_Tecnologia_Logo_Upcarreira.png" alt="Logo da Loja Online de Cursos">
     </a>
 </div>
+
   <body>
-	
+
     <div class="container">
-      <div class="menu">
-        <a href="https://www.upcarreira.com.br">Início</a>
-        <a href="https://www.upcarreira.com.br/cursos-tecnologia/">Tecnologia</a>
-        <a href="https://www.upcarreira.com.br/cursos-negocios/">Negócios</a>
-		<a href="https://www.upcarreira.com.br/cursos-marketing-digital/">Marketing Digital</a>
-		<a href="https://www.upcarreira.com.br/cursos-engenharia-civil">Engenharia</a>
-        <a href="https://www.upcarreira.com.br/contato/index.html">Contato</a>
-      </div>
+
+
+      
+
+
 	<div class="container-banner">	
 		<img width="2000" height="600" src="./img/Upcarreira-Escola-Cursos-Online-Tecnologia.jpg" class="attachment-medium_large size-medium_large" alt="Upcarreira - Escola Cursos Online Tecnologia" loading="lazy" srcset="./img/Upcarreira-Escola-Cursos-Online-Tecnologia.jpg 600w, ./img/Upcarreira-Escola-Cursos-Online-Tecnologia.jpg 300w" sizes="(max-width: 600px) 100vw, 600px">
 
@@ -647,26 +676,26 @@ grid-template-columns: repeat(1, 1fr);
 				  </div>
 				 </div>
 				</div>
-		
+			</div>
 					
 	
 				
 	
   </body>
   <footer>
-	<div class="container">
-	  <h4>Contato</h4>
+	<div class="container-rodape"><br>
+	 
 	  <p>Whatsapp: 11 97869-3572</p>
 	
 	<a href="https://www.upcarreira.com.br/contato/index.html">
-		<h3>Fale Conosco - Email</h3>
+		<h4>Contato - Email</h4><br>
 	</a>
 
 	</div>
 
 	
 
-	<div class="container">
+	<div class="container-rodape">
 	  <div class="footer-social-links-container">
 		<a href="https://www.youtube.com/c/UPCARREIRA"><i class="fab fa-youtube"></i></a>
 		<a href="https://www.facebook.com/upcarreiraead/"><i class="fab fa-facebook"></i></a>
