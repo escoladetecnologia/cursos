@@ -11,6 +11,11 @@
   <loc>https://www.upcarreira.com.br</loc>
   <priority>1.00</priority>
 </url>
+
+<url>
+  <loc>https://www.upcarreira.com.br/blog/page/analise-de-dados/guia-completo-de-analise-de-dados-as-melhores-ferramentas-tecnicas-para-iniciantes.html</loc>
+  <priority>1.00</priority>
+</url>
       
       
 <url>
@@ -41,7 +46,7 @@
 </url>
 <url>
   <loc>https://www.upcarreira.com.br/curso-analise-de-dados</loc>
-  <priority>0.80</priority>
+  <priority>1.0</priority>
 </url>
 <url>
   <loc>https://www.upcarreira.com.br/curso-facebook-ads</loc>
