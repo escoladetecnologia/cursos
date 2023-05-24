@@ -19,6 +19,27 @@
         <h1>Precisa de Ajuda? Entre em contato! </h1>
         <p>Fale conosco através do formulário abaixo, seja o mais específico possível com detalhes da sua dúvida para que possamos lhe ajudar! </p>
       
+        <h1>Formulário de Contato</h1>
+        <form
+          action="https://formsubmit.co/comercialupcarreira@gmail.com"
+          method="POST"
+          class="form"
+        >
+          <label for="name">Nome</label>
+          <input type="text" name="name" id="name" required />
+          <label for="email">E-mail</label>
+          <input type="email" name="email" id="email" required />
+          <label for="message">Mensagem</label>
+          <textarea name="message" id="message" required></textarea>
+          <input type="hidden" name="_captcha" value="false" />
+          <input
+            type="hidden"
+            name="_next"
+            value="https://yourdomain.co/thanks.html"
+          />
+          <button type="submit">Enviar</button>
+        </form>
+
     <footer>Upcarreira - Escola Online de Tecnologia &copy; 2022</footer>
 
     <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
