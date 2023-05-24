@@ -65,7 +65,7 @@ h1 {
   }
   
   h2::before {
-    content: "🐅";
+    content: "";
     display: block;
   }
   
