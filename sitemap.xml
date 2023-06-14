@@ -12,6 +12,7 @@
   <priority>1.00</priority>
 </url>
 
+
 <url>
   <loc>https://www.upcarreira.com.br/blog/page/analise-de-dados/guia-completo-de-analise-de-dados-as-melhores-ferramentas-tecnicas-para-iniciantes.html</loc>
   <priority>1.00</priority>
@@ -236,6 +237,11 @@
   <loc>https://www.upcarreira.com.br/category/engenhari-civil/page/1/index.html</loc>
   <lastmod>2022-12-05T01:18:39+00:00</lastmod>
   <priority>0.41</priority>
+</url>
+
+<url>
+  <loc>https://www.upcarreira.com.br/blog/page/artigos/como-otimizar-calculo-estrutural-cypecad.html</loc>
+  <priority>1.00</priority>
 </url>
 
 
