@@ -34,7 +34,7 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.upcarreira.com.br/cursos-gestao-negocios/</loc>
+  <loc>https://www.upcarreira.com.br/cursos-negocios/</loc>
   <priority>0.80</priority>
 </url>
 <url>
@@ -247,11 +247,6 @@
 <url>
   <loc>https://www.upcarreira.com.br/blog/page/artigos/passos-do-calculo-estrutural-de-galpoes-metalicos-em-aco-guiacompleto.html</loc>
   <priority>0.55</priority>
-</url>
-
-<url>
-  <loc>https://www.upcarreira.com.br/curso-marketing-digital-alta-performance-com-inteligencia-artificial</loc>
-  <priority>1.0</priority>
 </url>
 
 </urlset>
