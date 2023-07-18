@@ -12,12 +12,6 @@
   <priority>1.00</priority>
 </url>
 
-
-<url>
-  <loc>https://www.upcarreira.com.br/blog/page/analise-de-dados/guia-completo-de-analise-de-dados-as-melhores-ferramentas-tecnicas-para-iniciantes.html</loc>
-  <priority>1.00</priority>
-</url>
-      
       
 <url>
   <loc>https://www.upcarreira.com.br/calculo-estrutural-concreto-armado</loc>
@@ -59,7 +53,7 @@
 </url>
 <url>
   <loc>https://www.upcarreira.com.br/blog/</loc>
-  <priority>0.80</priority>
+  <priority>1.0</priority>
 </url>
 <url>
   <loc>https://www.upcarreira.com.br/curso-cypecad</loc>
@@ -141,21 +135,10 @@
   <loc>https://www.upcarreira.com.br/webinarios-gratuitos-calculo-estrutural/</loc>
   <priority>0.64</priority>
 </url>
-<url>
-  <loc>https://www.upcarreira.com.br/blog/page/2/index.html</loc>
-  <lastmod>2022-12-05T01:18:39+00:00</lastmod>
-  <priority>0.64</priority>
+
+
 </url>
-<url>
-  <loc>https://www.upcarreira.com.br/blog/page/3/index.html</loc>
-  <lastmod>2022-12-05T01:18:39+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.upcarreira.com.br/blog/page/4/index.html</loc>
-  <lastmod>2022-12-05T01:18:39+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
+
 <url>
   <loc>https://www.upcarreira.com.br/demonstracao-dos-principais-softwares-de-engenharia-estrutural/</loc>
   <priority>0.64</priority>
@@ -213,11 +196,7 @@
   <lastmod>2022-12-05T01:18:39+00:00</lastmod>
   <priority>0.51</priority>
 </url>
-<url>
-  <loc>https://www.upcarreira.com.br/blog/page/1/index.html</loc>
-  <lastmod>2022-12-05T01:18:39+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
+
 <url>
   <loc>https://www.upcarreira.com.br/a-importancia-dos-softwares-na-engenharia-civil/index.html</loc>
   <lastmod>2022-12-05T01:18:39+00:00</lastmod>
@@ -239,14 +218,6 @@
   <priority>0.41</priority>
 </url>
 
-<url>
-  <loc>https://www.upcarreira.com.br/blog/page/artigos/como-otimizar-calculo-estrutural-cypecad.html</loc>
-  <priority>0.55</priority>
-</url>
 
-<url>
-  <loc>https://www.upcarreira.com.br/blog/page/artigos/passos-do-calculo-estrutural-de-galpoes-metalicos-em-aco-guiacompleto.html</loc>
-  <priority>0.55</priority>
-</url>
 
 </urlset>
