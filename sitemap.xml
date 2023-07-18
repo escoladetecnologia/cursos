@@ -13,6 +13,7 @@
 </url>
 
       
+      
 <url>
   <loc>https://www.upcarreira.com.br/calculo-estrutural-concreto-armado</loc>
   <priority>1.00</priority>
@@ -51,10 +52,22 @@
   <loc>https://www.upcarreira.com.br/curso-investidor-inteligente</loc>
   <priority>0.80</priority>
 </url>
+      
 <url>
   <loc>https://www.upcarreira.com.br/blog/</loc>
   <priority>1.0</priority>
 </url>
+
+<url>
+  <loc>https://www.upcarreira.com.br/blog/tecnologia/</loc>
+  <priority>1.0</priority>
+</url>
+
+<url>
+  <loc>https://www.upcarreira.com.br/blog/engenharia/</loc>
+  <priority>1.0</priority>
+</url>
+      
 <url>
   <loc>https://www.upcarreira.com.br/curso-cypecad</loc>
   <priority>1.0</priority>
