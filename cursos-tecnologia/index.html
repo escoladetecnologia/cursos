@@ -40,6 +40,127 @@
 		</script>
 <style>
 
+
+* {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    .container {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .numbers-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      background-color: #000;
+      padding: 20px 0; /* Ajustamos as margens superior e inferior para 20px */
+    }
+    .number-card {
+      background-color: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    .number-icon {
+      font-size: 48px;
+      color: #007BFF;
+      margin-bottom: 10px;
+    }
+    .number-label {
+      font-size: 18px;
+      color: #007BFF;
+      font-weight: bold;
+    }
+    .number-value {
+      font-size: 36px;
+      color: #333;
+    }
+    .title {
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 50px;
+      line-height: 60px;
+      color: #fff;
+      text-align: center;
+      margin-bottom: 20px;
+      background-color: #000;
+      padding: 10px 20px;
+      border-radius: 8px;
+    }
+
+
+    .container {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .testimonial-card {
+      background-color: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      text-align: left; /* Alinhamos o texto à esquerda */
+      max-width: 500px; /* Definimos uma largura máxima para os depoimentos */
+    }
+    .stars {
+      color: #FFD700; /* Cor amarela para as estrelas */
+    }
+    .course-name {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .student-name {
+      font-size: 16px;
+      font-weight: bold;
+      color: #007BFF; /* Cor azul para o nome do aluno */
+      margin-bottom: 5px;
+    }
+    .timestamp {
+      font-size: 14px;
+      color: #888; /* Cor cinza para a data de atualização */
+      margin-bottom: 10px;
+    }
+    .rating {
+      font-size: 18px;
+      font-weight: bold;
+      color: #007BFF; /* Cor azul para a classificação */
+      margin-bottom: 10px;
+    }
+    .testimonial {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+    .title-testimonial {
+      font-family: "Roboto", sans-serif;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 50px;
+      line-height: 60px;
+      color: #fff;
+      text-align: center;
+      margin-bottom: 20px;
+      background-color: #000;
+      padding: 10px 20px;
+      border-radius: 8px;
+    }
+
 .inscrever-agora {
   font-family:Arial, Helvetica, sans-serif;
   background-color: #fd2c2c;
@@ -473,6 +594,41 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 </div>
 </section>
+
+
+
+
+<div class="container">
+  <div class="title">Nossos Números</div>
+  <div class="numbers-wrapper">
+    <div class="number-card">
+      <span class="number-icon">&#128101;</span>
+      <div class="number-label">ALUNOS</div>
+      <div class="number-value">10.000+</div>
+    </div>
+    <div class="number-card">
+      <span class="number-icon">&#127916;</span>
+      <div class="number-label">CURSOS</div>
+      <div class="number-value">26</div>
+    </div>
+    <div class="number-card">
+      <span class="number-icon">&#127913;</span>
+      <div class="number-label">VIDEOAULAS</div>
+      <div class="number-value">1.000+</div>
+    </div>
+    <div class="number-card">
+      <span class="number-icon">&#9200;</span>
+      <div class="number-label">HORAS AULA</div>
+      <div class="number-value">3.600+</div>
+    </div>
+    <div class="number-card">
+      <span class="number-icon">&#127891;</span>
+      <div class="number-label">CERTIFICADOS EMITIDOS</div>
+      <div class="number-value">3.000+</div>
+    </div>
+  </div>
+</div>
+
 <section class="elementor-section elementor-top-section elementor-element elementor-element-dd1b227 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="dd1b227" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 <div class="elementor-container elementor-column-gap-default">
 <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-8b998b9" data-id="8b998b9" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -1212,6 +1368,70 @@ body.elementor-page .elementor-widget-menu-anchor{margin-bottom:0}</style> <div 
 </div>
 </div>
 </section>
+
+<div class="container">
+  <div class="title-testimonial">Depoimentos de Alunos</div>
+  <div class="testimonial-card">
+    <div class="course-name">Curso de Vendas pelo Facebook e Instagram ADS</div>
+    <div class="student-name">Tiago Moreira Alves</div>
+    <div class="timestamp">Atualizado em 4 meses atrás</div>
+    <div class="rating">
+      <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> 5,0 de 5
+    </div>
+    <div class="testimonial">O que mais gostei, foi que não teve enrolação.</div>
+  </div>
+
+  <div class="testimonial-card">
+    <div class="course-name">Curso Python na Prática</div>
+    <div class="student-name">Welington de Pádua</div>
+    <div class="timestamp">Atualizado em 7 meses atrás</div>
+    <div class="rating">
+      <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> 5,0 de 5
+    </div>
+    <div class="testimonial">Material bem maior que imaginava! Didática muito boa! Parabéns, continue a nos auxiliar!!! Gratidão!</div>
+  </div>
+
+  <div class="testimonial-card">
+    <div class="course-name">Curso de Vendas pelo Facebook e Instagram ADS</div>
+    <div class="student-name">Keler Ferreira Tiussi</div>
+    <div class="timestamp">Atualizado em 9 meses atrás</div>
+    <div class="rating">
+      <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> 5,0 de 5
+    </div>
+    <div class="testimonial">ESTOU INICIANDO, MAS JÁ GOSTO MUITO DOS CURSOS DA UDEMY... PARABÉNS!</div>
+  </div>
+
+  <div class="testimonial-card">
+    <div class="course-name">Curso Marketing Direto por E-mail - Guia Definitivo</div>
+    <div class="student-name">Lamarck César de Aguiar Junior</div>
+    <div class="timestamp">Atualizado em 9 meses atrás</div>
+    <div class="rating">
+      <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> 5,0 de 5
+    </div>
+    <div class="testimonial">Incrível!</div>
+  </div>
+
+  <div class="testimonial-card">
+    <div class="course-name">Curso de Vendas pelo Facebook e Instagram ADS</div>
+    <div class="student-name">Simone Naressi</div>
+    <div class="timestamp">Publicado em 9 meses atrás</div>
+    <div class="rating">
+      <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> 5,0 de 5
+    </div>
+    <div class="testimonial">Estou gostando bastante das aulas. Bem objetivas e tem dicas bem legais sobre as ferramentas do Facebook.</div>
+  </div>
+
+  <div class="testimonial-card">
+    <div class="student-name">Otniel Luís</div>
+    <div class="timestamp">Atualizado em 1 ano atrás</div>
+    <div class="rating">
+      <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> 5,0 de 5
+    </div>
+    <div class="testimonial">Simples e objetivo com conteúdo muito bom para iniciantes. Recomendo.</div>
+  </div>
+</div>
+
+
 <section class="elementor-section elementor-top-section elementor-element elementor-element-52cbb55e elementor-section-full_width elementor-section-stretched elementor-hidden-desktop elementor-hidden-tablet elementor-section-content-middle elementor-section-height-default elementor-section-height-default" data-id="52cbb55e" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
 <div class="elementor-container elementor-column-gap-default">
 <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-47280779" data-id="47280779" data-element_type="column">
