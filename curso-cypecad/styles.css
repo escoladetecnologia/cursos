@@ -52,21 +52,21 @@ body {
 /* Centralizar títulos e subtítulos */
 .title,
 .section-title {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Ardina Text", Georgia, 'Cambria', "Times New Roman", serif;
     font-weight: 700;
-    font-size: 30px;
-    line-height: 30px;
-    color: #000000;
+    font-size: 40px;
+    line-height: 60px;
+    color: #1e293b;
     text-align: center;
 }
 
 .subtitle
  {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
+    font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
+    font-weight: 400;
     font-size: 26px;
-    line-height: 30px;
-    color: #000000;
+    line-height: 32px;
+    color: #475569;
     text-align: center;
 }
 
@@ -103,7 +103,7 @@ body:not(.title):not(.subtitle) {
     font-weight: 400;
     font-size: 21px;
     line-height: 38px;
-    color: #000000;
+    color: #1e293b;
     text-align: left;
 }
 
