@@ -211,31 +211,30 @@ body:not(.title):not(.subtitle) {
     box-sizing: border-box; /* Evitar problemas com bordas e margens */
 }
 
-/* Media queries */
+/* Adicione o seguinte CSS no final do seu arquivo de estilos */
+/* Adicione o seguinte CSS no final do seu arquivo de estilos */
 
-/* Tablets em modo retrato (768px) */
+/* Estilo para dispositivos móveis */
 @media (max-width: 768px) {
-    .title, .section-title {
-        font-size: 24px;
+    .container {
+        padding: 20px;
     }
-    .subtitle {
-        font-size: 22px;
-        margin-left: 15px;
-        margin-right: 15px;
+    .title, .section-title, .subtitle, .video {
+        display: none; /* Oculta os elementos .title, .section-title, .subtitle e .video */
     }
 
-    .headline {
-        font-size: 20px;
-        margin-left: 15px;
-        margin-right: 15px;
+    .title-mobile {
+        font-size: 28px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+
     }
 
-    .video {
-        margin: 20px 0;
-    }
     .cta-button, .testimonial-button {
-        margin: 40px auto;
-        display: block;
+        font-size: 21px;
+        margin-top: 20px;
+        width: 100%;
+        padding: 10px 15px;
     }
     .testimonials {
         flex-direction: column;
@@ -245,84 +244,22 @@ body:not(.title):not(.subtitle) {
         width: 100%;
         margin-bottom: 20px;
     }
-}
-
-/* Media query para dispositivos menores (até 1024px) */
-@media (max-width: 1024px) {
-    .title, .section-title {
-        font-size: 24px;
-        margin-top: 20px;
-        margin-bottom: 10px;
+    .course-description, .secure-payment, .testimonial {
+        padding-left: 20px;
+        padding-right: 20px;
     }
-
-    .subtitle, .headline {
-        font-size: 20px;
-        margin: 10px 0;
+    .secure-image {
+        max-width: 100%;
+        height: auto;
     }
-
-    /* Outros ajustes de estilo conforme necessário */
-}
-
-
-/* Dispositivos com largura de 600px */
-@media (max-width: 600px) {
-    .title, .section-title {
-        font-size: 22px;
-    }
-    .subtitle {
-        font-size: 18px;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
-    .headline {
-        font-size: 18px;
-        margin-left: 15px;
-        margin-right: 15px;
-    }
-
-    .video {
-        margin: 15px 0;
-    }
-    .cta-button, .testimonial-button {
-        font-size: 16px;
-        margin-top: 8px;
-        margin: 40px auto;
+    .list-group {
+        padding-left: 20px;
     }
 }
 
-/* Dispositivos com largura de 480px */
-@media (max-width: 480px) {
-    .title, .section-title {
-        font-size: 20px;
-    }
-    .subtitle, .headline {
-        font-size: 15px;
-    }
-    .video {
-        margin: 10px 0;
-    }
-    .cta-button, .testimonial-button {
-        font-size: 14px;
-        margin-top: 6px;
-        margin: 40px auto;
-    }
-}
-
-/* Dispositivos com largura de 320px */
-@media (max-width: 320px) {
-    .title, .section-title {
-        font-size: 18px;
-    }
-    .subtitle, .headline {
-        font-size: 14px;
-    }
-    .video {
-        margin: 5px 0;
-    }
-    .cta-button, .testimonial-button {
-        font-size: 12px;
-        margin-top: 4px;
-        margin: 20px auto;
+/* Estilo para dispositivos desktop */
+@media (min-width: 769px) {
+    .title-mobile {
+        display: none; /* Oculta a classe .title-mobile em dispositivos desktop */
     }
 }
