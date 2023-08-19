@@ -8,229 +8,170 @@
 
 
 <url>
-  <loc>https://www.upcarreira.com.br</loc>
+  <loc>https://www.upcarreira.com.br/</loc>
+  <lastmod>2023-08-19T22:38:16+00:00</lastmod>
   <priority>1.00</priority>
 </url>
-
-      
-      
 <url>
-  <loc>https://www.upcarreira.com.br/calculo-estrutural-concreto-armado</loc>
-  <priority>1.00</priority>
+  <loc>https://www.upcarreira.com.br/cursos-engenharia-civil/index.html</loc>
+  <lastmod>2023-08-19T22:38:16+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
-      
-      
 <url>
-  <loc>https://www.upcarreira.com.br/cursos-engenharia-civil/</loc>
+  <loc>https://www.upcarreira.com.br/index.html</loc>
+  <lastmod>2023-08-19T22:38:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.upcarreira.com.br/cursos-marketing-digital/index.html</loc>
+  <lastmod>2023-08-19T22:38:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.upcarreira.com.br/contato/index.html</loc>
+  <lastmod>2023-08-19T22:38:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.upcarreira.com.br/cursos-negocios/index.html</loc>
+  <lastmod>2023-08-19T22:38:16+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.upcarreira.com.br/cursos-tecnologia/</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.upcarreira.com.br/cursos-negocios/</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.upcarreira.com.br/cursos-marketing-digital/</loc>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.upcarreira.com.br/contato/</loc>
+  <lastmod>2023-08-19T22:38:16+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.upcarreira.com.br/curso-analise-de-dados</loc>
-  <priority>1.0</priority>
+  <lastmod>2023-08-19T22:38:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.upcarreira.com.br/curso-python</loc>
+  <lastmod>2023-08-19T22:38:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.upcarreira.com.br/curso-marketing-digital-alta-performance-com-inteligencia-artificial</loc>
+  <lastmod>2023-08-19T22:38:16+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.upcarreira.com.br/curso-facebook-ads</loc>
+  <lastmod>2023-08-19T22:38:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.upcarreira.com.br/curso-mente-milionaria</loc>
+  <lastmod>2023-08-19T22:38:16+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.upcarreira.com.br/curso-investidor-inteligente</loc>
+  <lastmod>2023-08-19T22:38:16+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-      
 <url>
-  <loc>https://www.upcarreira.com.br/blog/</loc>
-  <priority>1.0</priority>
-</url>
-
-<url>
-  <loc>https://www.upcarreira.com.br/blog/tecnologia/</loc>
-  <priority>1.0</priority>
-</url>
-
-<url>
-  <loc>https://www.upcarreira.com.br/blog/engenharia/</loc>
-  <priority>1.0</priority>
-</url>
-      
-<url>
-  <loc>https://www.upcarreira.com.br/curso-cypecad</loc>
-  <priority>1.0</priority>
+  <loc>https://www.upcarreira.com.br/blog/index.html</loc>
+  <lastmod>2023-08-19T22:38:16+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.upcarreira.com.br/curso-cype3d/</loc>
-  <priority>1.0</priority>
-</url>
-<url>
-  <loc>https://www.upcarreira.com.br/curso-tekla-structure</loc>
+  <loc>https://www.upcarreira.com.br/curso-cypecad/index.html</loc>
+  <lastmod>2023-08-19T22:38:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.upcarreira.com.br/curso-eberick</loc>
+  <loc>https://www.upcarreira.com.br/curso-cype3d</loc>
+  <lastmod>2023-08-19T22:38:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.upcarreira.com.br/curso-sap2000</loc>
-  <priority>1.0</priority>
-</url>
-<url>
-  <loc>https://www.upcarreira.com.br/curso-elementos-finitos</loc>
+  <loc>https://www.upcarreira.com.br/curso-tekla-structure/index.html</loc>
+  <lastmod>2023-08-19T22:38:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.upcarreira.com.br/curso-hydros</loc>
+  <loc>https://www.upcarreira.com.br/curso-eberick/index.html</loc>
+  <lastmod>2023-08-19T22:38:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.upcarreira.com.br/curso-pro-eletrica</loc>
+  <loc>https://www.upcarreira.com.br/curso-sap2000/index.html</loc>
+  <lastmod>2023-08-19T22:38:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.upcarreira.com.br/curso-revit</loc>
+  <loc>https://www.upcarreira.com.br/curso-elementos-finitos/index.html</loc>
+  <lastmod>2023-08-19T22:38:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.upcarreira.com.br/curso-robot</loc>
+  <loc>https://www.upcarreira.com.br/curso-hydros/index.html</loc>
+  <lastmod>2023-08-19T22:38:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.upcarreira.com.br/curso-engenheiro-empreendedor</loc>
+  <loc>https://www.upcarreira.com.br/curso-pro-eletrica/index.html</loc>
+  <lastmod>2023-08-19T22:38:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.upcarreira.com.br/curso-mente-milionaria</loc>
+  <loc>https://www.upcarreira.com.br/curso-revit/index.html</loc>
+  <lastmod>2023-08-19T22:38:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.upcarreira.com.br</loc>
-  <priority>1.0</priority>
-</url>
-<url>
-  <loc>https://www.upcarreira.com.br/como-ganhar-dinheiro-com-calculo-estrutural/</loc>
+  <loc>https://www.upcarreira.com.br/curso-robot/index.html</loc>
+  <lastmod>2023-08-19T22:38:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.upcarreira.com.br/category/carreira/index.html</loc>
+  <loc>https://www.upcarreira.com.br/curso-engenheiro-empreendedor/index.html</loc>
+  <lastmod>2023-08-19T22:38:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.upcarreira.com.br/category/engenhari-civil/</loc>
+  <loc>https://www.upcarreira.com.br/cursos-tecnologia/index.html</loc>
+  <lastmod>2023-08-19T22:38:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.upcarreira.com.br/4-passos-simples-de-como-validar-sua-ideia-e-lucrar-mais/</loc>
+  <loc>https://www.upcarreira.com.br/curso-mente-milionaria/index.html</loc>
+  <lastmod>2023-08-19T22:38:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.upcarreira.com.br/category/empreendedorismo/</loc>
+  <loc>https://www.upcarreira.com.br/blog/page/artigos/tecnologia/</loc>
+  <lastmod>2023-08-19T22:38:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.upcarreira.com.br/boom-construcao-civil-engenheiro-do-futuro/</loc>
+  <loc>https://www.upcarreira.com.br/blog/page/artigos/engenharia/</loc>
+  <lastmod>2023-08-19T22:38:16+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.upcarreira.com.br/webinarios-gratuitos-calculo-estrutural/</loc>
-  <priority>0.64</priority>
-</url>
-
-
-</url>
-
-<url>
-  <loc>https://www.upcarreira.com.br/demonstracao-dos-principais-softwares-de-engenharia-estrutural/</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.upcarreira.com.br/7-passos-de-como-ser-engenheiro-projetistacalculista-de-sucesso-com-auxilio-da-informatica/</loc>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.upcarreira.com.br/curso-online-veja-4-motivos-para-voce-investir/</loc>
+  <loc>https://www.upcarreira.com.br/blog/page/artigos/tecnologia/inteligencia-artificial-vai-substituir-humanos.html</loc>
+  <lastmod>2023-08-19T22:38:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.upcarreira.com.br/trabalhar-no-exterior-e-desafio-para-o-engenheiro/</loc>
-  <lastmod>2022-12-05T01:18:39+00:00</lastmod>
+  <loc>https://www.upcarreira.com.br/blog/page/artigos/tecnologia/revolucao-inteligencia-artificial-code-interpreter.html</loc>
+  <lastmod>2023-08-19T22:38:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.upcarreira.com.br/category/engenhari-civil/page/2/index.html</loc>
-  <lastmod>2022-12-05T01:18:39+00:00</lastmod>
+  <loc>https://www.upcarreira.com.br/blog/page/artigos/tecnologia/tecnologia-da-informacacao-areas-de-destaques.html</loc>
+  <lastmod>2023-08-19T22:38:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.upcarreira.com.br/category/engenhari-civil/page/3/index.html</loc>
-  <lastmod>2022-12-05T01:18:39+00:00</lastmod>
+  <loc>https://www.upcarreira.com.br/blog/page/artigos/engenharia/index.html</loc>
+  <lastmod>2023-08-19T22:38:16+00:00</lastmod>
   <priority>0.51</priority>
 </url>
-<url>
-  <loc>https://www.upcarreira.com.br/como-ser-um-empreendedor-de-sucesso/index.html</loc>
-  <lastmod>2022-12-05T01:18:39+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.upcarreira.com.br/5-beneficios-para-manter-a-saude-mental-em-dia/index.html</loc>
-  <lastmod>2022-12-05T01:18:39+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.upcarreira.com.br/combo-calculo-estrutural/</loc>
-  <lastmod>2022-12-05T01:18:39+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.upcarreira.com.br/como-se-formar-como-engenheiro-civil-calculista-estrutural/</loc>
-  <lastmod>2022-12-05T01:18:39+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.upcarreira.com.br/ebook-gratis-roteiro-de-calculo-estrutural/</loc>
-  <lastmod>2022-12-05T01:18:39+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.upcarreira.com.br/20-qualidades-desejaveis-para-o-engenheiro-calculista/</loc>
-  <lastmod>2022-12-05T01:18:39+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-
-<url>
-  <loc>https://www.upcarreira.com.br/a-importancia-dos-softwares-na-engenharia-civil/index.html</loc>
-  <lastmod>2022-12-05T01:18:39+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.upcarreira.com.br/mini-curso-elementos-finitos-gratuito/index.html</loc>
-  <lastmod>2022-12-05T01:18:39+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.upcarreira.com.br/voce-tem-o-perfil-para-ser-engenheiro-saiba-como-saber/index.html</loc>
-  <lastmod>2022-12-05T01:18:39+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.upcarreira.com.br/category/engenhari-civil/page/1/index.html</loc>
-  <lastmod>2022-12-05T01:18:39+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-
 
 
 </urlset>
