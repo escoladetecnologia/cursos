@@ -1,0 +1,270 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 30px;
+    
+
+}
+
+
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    
+}
+
+h1 {
+    font-family: "Ardina Text", Georgia, Cambria, "Times New Roman", serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #eeeff0;
+    
+}
+
+h2 {
+    font-family: "Ardina Text", Georgia, Cambria, "Times New Roman", serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 60px;
+    color: #1e293b;
+}
+
+h3 {
+    font-family: "Ardina Text", Georgia, Cambria, "Times New Roman", serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 60px;
+    color: #1e293b;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 38px;
+    color: #1e293b;
+    text-align: left; /* Alinhar parágrafos à esquerda */
+    margin: 20px;
+    
+}
+
+.ticket-list {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px; /* Ajuste o tamanho do texto aqui */
+    line-height: 28px; /* Ajuste o espaço entre as linhas aqui */
+    color: #1e293b;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding-left: 40px;
+    position: relative;
+    list-style: none;
+        padding-left: 0;
+        margin-top: 20px;
+        text-align: left;
+}
+
+.ticket-list li {
+    margin-bottom: 10px;
+    padding-left: 40px;
+    position: relative;
+}
+
+.ticket-icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 18px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .image-container img {
+    max-width: 100%; /* Ajusta a largura máxima da imagem para se adaptar ao contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    
+  }
+
+  .professor-list {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 38px;
+    color: #1e293b;
+    margin-bottom: 30px;
+    margin: 30px;
+  }
+
+  #professor-curso {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+   
+}
+
+
+
+#depoimentos-alunos {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+   
+}
+
+
+#conteudo-curso {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+   
+}
+
+
+
+
+  /* Estilos para a seção "Conteúdo do Curso" */
+.course-content {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 38px;
+  color: #1e293b;
+  margin-left: 30px;
+            margin-right: auto; /* Alinha à margem direita */
+            padding: 30px; /* Adicione preenchimento interno */
+}
+
+.course-content li {
+  margin-bottom: 10px;
+  list-style: disc;
+  list-style-position: outside;
+}
+
+/* Estilos para a seção "Certificado" */
+#certificado {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+  }
+  
+  .certificado-list {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 38px;
+    color: #1e293b;
+    margin-left: 30px;
+    margin-right: auto;
+    padding: 0;
+   
+  }
+  
+  .certificado-list li {
+    margin-bottom: 10px;
+  
+    list-style-position: outside;
+  }
+
+
+  
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.banner {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.descricao {
+    padding: 2rem;
+    background-color: #fff;
+    color: #333;
+}
+
+.cta-button
+ {
+    display: block; /* Alterado para "block" para ocupar a largura total */
+    background-color: #FF5722;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 21px;
+    cursor: pointer;
+    margin: 40px auto; /* Centralizar verticalmente e horizontalmente */
+    text-align: center; /* Alinhar o texto ao centro */
+    width: fit-content; /* Define a largura do botão com base no conteúdo */
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s; /* Adicionado efeito de transição */
+}
+
+.cta-button:hover
+ {
+    background-color: #027005; /* Altera a cor para verde quando o mouse passa sobre o botão */
+    transform: scale(1.1); /* Aumenta o tamanho do botão quando o mouse passa sobre ele */
+}
+
+
+/* Estilos para a seção "Perguntas Frequentes" */
+.faq-list {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 38px;
+    color: #1e293b;
+    margin-left: 30px;
+    margin-right: auto; /* Alinha à margem direita */
+    padding: 30px; /* Adicione preenchimento interno */
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-item h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 21px;
+}
+
+.faq-item p {
+    margin-bottom: 10px;
+}
+
+
+/* Mais estilos aqui */
+

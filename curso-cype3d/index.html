@@ -1,935 +1,293 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-ND2BWD');</script>
-<!-- End Google Tag Manager -->
-</script>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-ND2BWD');</script>
+    <!-- End Google Tag Manager -->
 
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
 
+    <title>Curso Cype 3D - Cálculo e Dimensionamento de Estruturas Metálicas</title>
+    <meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large">
+    <meta name="description" content="Curso Cypecad Online na Prática Completo - Cálculo Estrutural: Domine o Cálculo Estrutural com Método VQS. Faça a melhor escolha em Cálculo Estrutural. Inscreva-se já!">
+    <link rel="canonical" href="https://www.upcarreira.com.br/curso-cypecad">
+    <!-- Metatags para redes sociais -->
+    <meta property="og:title" content="Curso Cypecad Online na Prática Completo - Cálculo Estrutural - Upcarreira">
+    <meta property="og:description" content="Curso Cypecad Online na Prática Completo - Cálculo Estrutural: Domine o Cálculo Estrutural com Método VQS. Faça a melhor escolha em Cálculo Estrutural. Inscreva-se já!">
+    <meta property="og:image" content="https://www.upcarreira.com.br/curso-cypecad/images/curso-cypecad-completo-online-calculo-estrutural.jpg">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="stylesheet/estilos.css">
+    <!-- Fontes -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Scripts do Bootstrap e Font Awesome no final do corpo -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
 
-<title>Curso Cype 3D para Cálculo Estrutural de Estruturas Metálicas de Galpões, Mezaninos e Telhados</title>
-<meta name="description" content="Curso CYPE 3D para Cálculo Estrutural de Estruturas Metálicas de Galpões: Domine o Passo a Passo e Alavanque sua Carreira" />
-<meta name="robots" content="index, follow, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
-<link rel="canonical" href="https://upcarreira.com.br/curso-cype3d" />
-<meta property="og:locale" content="pt_BR" />
-<meta property="og:type" content="article" />
-<meta property="og:title" content="Curso Cype 3d Metalicas na Prática | Calculo Estrutura Metalica - Upcarreira" />
-<meta property="og:description" content="Curso Cype 3D Metálicas na Prática Completo. Aprenda na prática como ganhar de 15 a R$30.000 por projeto de cálculo estrutural de estruturas metálicas de Galpões com o Software Cype 3D." />
-<meta property="og:url" content="https://upcarreira.com.br/curso-cype3d/" />
-<meta property="og:site_name" content="Upcarreira" />
-<meta property="og:updated_time" content="2022-06-18T16:11:35-03:00" />
-<meta property="og:image" content="https://www.upcarreira.com.br/curso-cype3d/images/curso-cype-3d-calculo-estrutura-metalica-upcarreira-4.jpg" />
-<meta property="og:image:secure_url" content="https://www.upcarreira.com.br/curso-cype3d/images/curso-cype-3d-calculo-estrutura-metalica-upcarreira-4.jpg" />
-<meta property="og:image:width" content="960" />
-<meta property="og:image:height" content="640" />
-<meta property="og:image:alt" content="Curso Cype 3d Metalicas na Prática | Calculo Estrutura Metalica - Upcarreira" />
-<meta property="og:image:type" content="image/jpeg" />
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Curso Cype 3d Metalicas na Prática | Calculo Estrutura Metalica - Upcarreira" />
-<meta name="twitter:description" content="Curso Cype 3D Metálicas na Prática Completo. Aprenda na prática como ganhar de 15 a R$30.000 por projeto de cálculo estrutural de estruturas metálicas de Galpões com o Software Cype 3D." />
-<meta name="twitter:image" content="https://www.upcarreira.com.br/curso-cype3d/images/curso-cype-3d-calculo-estrutura-metalica-upcarreira-4.jpg" />
-<meta name="twitter:label1" content="Time to read" />
-<meta name="twitter:data1" content="15 minutos" />
-<script type="application/ld+json" class="rank-math-schema">{"@context":"https://schema.org","@graph":[{"@type":["EducationalOrganization","Organization"],"@id":"https://upcarreira.com.br/#organization","name":"Upcarreira Educa\u00e7\u00e3o","url":"https://upcarreira.com.br","logo":{"@type":"ImageObject","@id":"https://upcarreira.com.br/#logo","url":"https://upcarreira.com.br/wp-content/uploads/2021/10/logo-upcarreira.png","caption":"Upcarreira","inLanguage":"pt-BR","width":"690","height":"234"}},{"@type":"WebSite","@id":"https://upcarreira.com.br/#website","url":"https://upcarreira.com.br","name":"Upcarreira","publisher":{"@id":"https://upcarreira.com.br/#organization"},"inLanguage":"pt-BR"},{"@type":"ImageObject","@id":"https://github.com/claudio-m-antonio/upcarreira/blob/main/curso-cype3d/images/Curso%20Cype%203d%20-%20Calculo%20Estrutura%20Metalica%20-%20Upcarreira.jpg","url":"https://github.com/claudio-m-antonio/upcarreira/blob/main/curso-cype3d/images/Curso%20Cype%203d%20-%20Calculo%20Estrutura%20Metalica%20-%20Upcarreira.jpg","width":"960","height":"640","inLanguage":"pt-BR"},{"@type":"WebPage","@id":"https://upcarreira.com.br/curso-cype3d/#webpage","url":"https://upcarreira.com.br/curso-cype3d/","name":"Curso Cype 3d na pratica - Upcarreira","datePublished":"2021-10-20T03:14:00-03:00","dateModified":"2022-06-18T16:11:35-03:00","isPartOf":{"@id":"https://upcarreira.com.br/#website"},"primaryImageOfPage":{"@id":"https://github.com/claudio-m-antonio/upcarreira/blob/main/curso-cype3d/images/Curso%20Cype%203d%20-%20Calculo%20Estrutura%20Metalica%20-%20Upcarreira.jpg"},"inLanguage":"pt-BR"},{"@type":"Course","name":"Curso Cype 3d na Pr\u00e1tica - Upcarreira Educa\u00e7\u00e3o","description":"Aprenda Cype 3d na prática e como fazer projetos e Cálculo Estrutural de Estruturas Metálicas na Prática: Galpões Metálicos, Mezaninos, Telhados","image":{"@id":"https://upcarreira.com.br/wp-content/uploads/2021/10/UpCarreira-Blog-Cursos-de-Engenharia-e-Arquitetura.jpg"},"@id":"https://upcarreira.com.br/curso-cype3d/#schema-19763","isPartOf":{"@id":"https://upcarreira.com.br/curso-cype3d/#webpage"},"publisher":{"@id":"https://upcarreira.com.br/#organization"},"inLanguage":"pt-BR","mainEntityOfPage":{"@id":"https://upcarreira.com.br/curso-cype3d/#webpage"}}]}</script>
-
-<link rel='dns-prefetch' href='//s.w.org' />
-<link rel="alternate" type="application/rss+xml" title="Feed para Upcarreira &raquo;" href="https://upcarreira.com.br/feed/" />
-<link rel="alternate" type="application/rss+xml" title="Feed de comentários para Upcarreira &raquo;" href="https://upcarreira.com.br/comments/feed/" />
-<script>
-			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/upcarreira.com.br\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.8.5"}};
-			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([10084,65039,8205,55357,56613],[10084,65039,8203,55357,56613])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
-		</script>
-<style>
-img.wp-smiley,
-img.emoji {
-	display: inline !important;
-	border: none !important;
-	box-shadow: none !important;
-	height: 1em !important;
-	width: 1em !important;
-	margin: 0 .07em !important;
-	vertical-align: -0.1em !important;
-	background: none !important;
-	padding: 0 !important;
-}
-
-
-.curso-cype3d {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 38px;
-    color: #000000;
-  }
-
-</style>
-<link rel='stylesheet' id='wp-block-library-css' href='https://upcarreira.com.br/wp-includes/css/dist/block-library/style.min.css?ver=5.8.5' media='all' />
-<style id='wp-block-library-theme-inline-css'>
-#start-resizable-editor-section{display:none}.wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:hsla(0,0%,100%,.65)}.wp-block-code{font-family:Menlo,Consolas,monaco,monospace;color:#1e1e1e;padding:.8em 1em;border:1px solid #ddd;border-radius:4px}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:hsla(0,0%,100%,.65)}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:hsla(0,0%,100%,.65)}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}.wp-block-pullquote{border-top:4px solid;border-bottom:4px solid;margin-bottom:1.75em;color:currentColor}.wp-block-pullquote__citation,.wp-block-pullquote cite,.wp-block-pullquote footer{color:currentColor;text-transform:uppercase;font-size:.8125em;font-style:normal}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;position:relative;font-style:normal}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-group.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto;opacity:.4}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table thead{border-bottom:3px solid}.wp-block-table tfoot{border-top:3px solid}.wp-block-table td,.wp-block-table th{padding:.5em;border:1px solid;word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:hsla(0,0%,100%,.65)}.wp-block-template-part.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}#end-resizable-editor-section{display:none}
-</style>
-<link rel='stylesheet' id='font-awesome-css' href='https://upcarreira.com.br/wp-content/themes/oceanwp/assets/fonts/fontawesome/css/all.min.css?ver=5.15.1' media='all' />
-<link rel='stylesheet' id='simple-line-icons-css' href='https://upcarreira.com.br/wp-content/themes/oceanwp/assets/css/third/simple-line-icons.min.css?ver=2.4.0' media='all' />
-<link rel='stylesheet' id='oceanwp-style-css' href='https://upcarreira.com.br/wp-content/themes/oceanwp/assets/css/style.min.css?ver=3.2.0' media='all' />
-<link rel='stylesheet' id='elementor-icons-css' href='https://upcarreira.com.br/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.15.0' media='all' />
-<link rel='stylesheet' id='elementor-frontend-css' href='https://upcarreira.com.br/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.6.6' media='all' />
-<link rel='stylesheet' id='elementor-post-11-css' href='https://upcarreira.com.br/wp-content/uploads/elementor/css/post-11.css?ver=1661292174' media='all' />
-<link rel='stylesheet' id='full-screen-menu-frontend-css' href='https://upcarreira.com.br/wp-content/plugins/full-screen-menu-for-elementor/assets/css/frontend.min.css?ver=1.0.5' media='all' />
-<link rel='stylesheet' id='elementor-global-css' href='https://upcarreira.com.br/wp-content/uploads/elementor/css/global.css?ver=1661292174' media='all' />
-<link rel='stylesheet' id='elementor-post-277-css' href='https://upcarreira.com.br/wp-content/uploads/elementor/css/post-277.css?ver=1661292194' media='all' />
-<link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPoppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=5.8.5' media='all' />
-<link rel='stylesheet' id='elementor-icons-shared-0-css' href='https://upcarreira.com.br/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3' media='all' />
-<link rel='stylesheet' id='elementor-icons-fa-regular-css' href='https://upcarreira.com.br/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3' media='all' />
-<link rel='stylesheet' id='elementor-icons-fa-solid-css' href='https://upcarreira.com.br/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3' media='all' />
-<script src='https://upcarreira.com.br/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
-<script src='https://upcarreira.com.br/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
-<link rel="https://api.w.org/" href="https://upcarreira.com.br/wp-json/" /><link rel="alternate" type="application/json" href="https://upcarreira.com.br/wp-json/wp/v2/pages/277" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://upcarreira.com.br/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://upcarreira.com.br/wp-includes/wlwmanifest.xml" />
-<meta name="generator" content="WordPress 5.8.5" />
-<link rel="alternate" type="application/json+oembed" href="https://upcarreira.com.br/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fupcarreira.com.br%2Fcurso-cypecad%2F" />
-<meta name="facebook-domain-verification" content="ph2oj3au1wttgl0svzjd5wq23jj2jy" />
-
-<script type='text/javascript'>
-!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-document,'script','https://connect.facebook.net/en_US/fbevents.js');
-</script>
-
-<script type='text/javascript'>
-  fbq('init', '2457246527652237', {}, {
-    "agent": "wordpress-5.8.5-3.0.6"
-});
-</script><script type='text/javascript'>
-  fbq('track', 'PageView', []);
-</script>
-
-<noscript>
-<img height="1" width="1" style="display:none" alt="fbpx"
-src="https://www.facebook.com/tr?id=2457246527652237&ev=PageView&noscript=1" />
-</noscript>
-
-
-<style type="text/css">
-/* Header CSS */#site-header.has-header-media .overlay-header-media{background-color:rgba(0,0,0,0.5)}#site-logo #site-logo-inner a img,#site-header.center-header #site-navigation-wrap .middle-site-logo a img{max-width:304px}#site-header #site-logo #site-logo-inner a img,#site-header.center-header #site-navigation-wrap .middle-site-logo a img{max-height:47px}
-</style> <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" /></head>
-<body class="page-template page-template-elementor_canvas page page-id-277 wp-custom-logo wp-embed-responsive oceanwp-theme dropdown-mobile default-breakpoint has-sidebar content-right-sidebar has-topbar has-breadcrumbs elementor-default elementor-template-canvas elementor-kit-11 elementor-page elementor-page-277">
-
-<div data-elementor-type="wp-page" data-elementor-id="277" class="elementor elementor-277">
-
-	<!-- Google Tag Manager (noscript) -->
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-ND2BWD"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-	<div data-elementor-type="wp-page" data-elementor-id="277" class="elementor elementor-277">
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
-<section class="elementor-section elementor-top-section elementor-element elementor-element-5704c1d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5704c1d" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-<div class="elementor-container elementor-column-gap-default">
-<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4abbbb1" data-id="4abbbb1" data-element_type="column">
-<div class="elementor-widget-wrap elementor-element-populated">
-<div class="elementor-element elementor-element-58ba175 elementor-widget elementor-widget-heading" data-id="58ba175" data-element_type="widget" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<style>/*! elementor - v3.6.6 - 08-06-2022 */
-.elementor-heading-title{padding:0;margin:0;line-height:1}.elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a{color:inherit;font-size:inherit;line-height:inherit}.elementor-widget-heading .elementor-heading-title.elementor-size-small{font-size:15px}.elementor-widget-heading .elementor-heading-title.elementor-size-medium{font-size:19px}.elementor-widget-heading .elementor-heading-title.elementor-size-large{font-size:29px}.elementor-widget-heading .elementor-heading-title.elementor-size-xl{font-size:39px}.elementor-widget-heading .elementor-heading-title.elementor-size-xxl{font-size:59px}</style><h2 class="elementor-heading-title elementor-size-default">Curso Cype 3d Metálicas na Prática - Cálculo de Estruturas Metálicas</h2> </div>
-</div>
-<div class="elementor-element elementor-element-a313f08 elementor-widget elementor-widget-text-editor" data-id="a313f08" data-element_type="widget" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<style>/*! elementor - v3.6.6 - 08-06-2022 */
-.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap{background-color:#818a91;color:#fff}.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap{color:#818a91;border:3px solid;background-color:transparent}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap{margin-top:8px}.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter{width:1em;height:1em}.elementor-widget-text-editor .elementor-drop-cap{float:left;text-align:center;line-height:1;font-size:50px}.elementor-widget-text-editor .elementor-drop-cap-letter{display:inline-block}</style>
+    <header>
+        <h1>Curso Cype 3D Estruturas Metálicas Online</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="#sobre-curso-cype3d">Sobre o Curso</a></li>
+                <li><a href="#depoimentos-alunos">Depoimentos</a></li>
+                <li><a href="#conteudo-curso">Conteúdo</a></li>
+                <li><a href="#professor-curso">Professor</a></li>
+                <li><a href="https://www.upcarreira.com.br/contato/" target="_blank">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="banner">
+        <h2>Domine o Cype 3D e Seja um Especialista em Cálculo de Galpões Metálicos! Magno Moreira, Engenheiro de Elite, Revela o Método VQS para Transformar Projetos. Transforme-se Agora!</h2>
+
+        <p>O curso "Cype 3D - Cálculo e Dimensionamento de Estruturas Metálicas" oferece um conceito direto ao ponto de aprender a calcular e dimensionar estruturas metálicas conforme as normas brasileiras, usando o software Cype 3D. No curso, você vai dominar a configuração do software, lançar elementos como pilares, tesouras, terças, contraventos e tirantes, calcular e aplicar cargas na estrutura, usar o Visual Ventos para lidar com as forças do vento, interpretar os resultados dos cálculos e exportar toda a documentação necessária em formato DWG.</p>
+        <p>Aprenda Cálculo e Dimensionamento de Estruturas Metálicas com Software de Cálculo Estrutural Cype 3D Metálicas 3D. Nossas videoaulas ministradas Magno Moreira, Engenheiro Estrutural especialista que guiará você a aprender o software do básico até o avançado, permitindo que você domine completamente as técnicas de cálculo e modelagem de estruturas metálicas de Galpões Metálicos, Mezaninos, Telhados. Com essa expertise, você estará preparado para enfrentar desafios reais de projetos de Cálculo Estrutural para se destacar como especialista em Cálculo Estrutural.</p>
+        <div>            <p style="font-family: 'Poppins', sans-serif; font-weight: 400; font-size: 21px; line-height: 38px; color: #000000; text-align: center;"> <strong>Matricule-se Já, clique no Botão Comprar Agora Abaixo:</strong> <br>
+    
+       </div>
+
+       <div class="center-button" style="margin-top: 20px;">
+           <a href="https://chk.eduzz.com/1990526" class="cta-button">COMPRAR O CURSO AGORA</a>
+       </div>
+
+        <div class="testimonial">
+            <p class="testimonial-text">
+              
+              <em>"Muito bom o Curso Cype 3D Metálicas 3D, consegui aprender muitas coisas, acredito que a escola de software UPCARREIRA/ está de parabéns pelo excelente trabalho."</em>
+              <span class="testimonial-stars">⭐⭐⭐⭐⭐</span>
+            </p>
+          </div>
+
+          <h3 id="sobre-curso-cype3d">Sobre o Curso Cype 3D Metálicas 3D</h3>
+
+        <div class="image-container">
+            <img src="https://www.upcarreira.com.br/curso-cype3d/images/curso-cype-3d-calculo-estrutura-metalica-upcarreira-4.jpg" alt="Imagem do Curso Cype 3D" style="max-width: 100%; width: 600px; height: auto;">
+          </div>
+          
+    
+
+        <p><strong>Imagine você sendo um especialista em Cálculo Estrutural de Estruturas Metálicas com o Curso Cype 3D Metálicas 3D:</strong>​</p>
+
+        <ul class="ticket-list">
+            <li><span class="ticket-icon">🎫</span> Criando Projetos de galpão metálico com o software Cype 3D Metálicas 3D e Faturando muito $ com seus projetos!</li>
+            <li><span class="ticket-icon">🎫</span> Enfrentar qualquer cálculo estrutural de galpões metálicos, mezaninos, telhados de acordo com as Téncnicas (NBR6118 (Concreto Armado), Fundações (NBR6122), Carregamentos de Acordo com as Normas: ABNT NBR 8800:2008, ABNT NBR 14762:2010, AISI (Brasil), Eurocódigo 4, ABNT NBR 7190, ABNT NBR 6123, ABNT NBR 15421:2006, ABNT NBR-8681/84, NBR6118).</li>
+            <li><span class="ticket-icon">🎫</span> Aprender a fazer projeto de cálculo de estruturas metálicas através do nosso método único VQS...</li>
+            <li><span class="ticket-icon">🎫</span> Calcular, Modelar, projetar e analisar um projeto completo de estruturas metálicas como galpões, mezaninos, telhados.</li>
+            <li><span class="ticket-icon">🎫</span> Dar um UP na sua Carreira, e obter os melhoes empregos e negócios na área de cálculo de estruturas metálicas</li>
+            <li><span class="ticket-icon">🎫</span> Realizar o cálculo, dimensionamento e verificação de estruturas, aço laminado, aço composto...</li>
+            <li><span class="ticket-icon">🎫</span> Fazer os Carregamentos conforme normas (NBR 6120), barras (NBR 7480), ventos (NBR 6123), ações e combinações.</li>
+        </ul>
+
+        <div class="center-button" style="margin-top: 20px;">
+            <a href="https://chk.eduzz.com/1990526" class="cta-button">COMPRAR O CURSO AGORA</a>
+        </div>
+    
+    </section>
+    
+    <section class="descricao">
+
+        <h3>Benefícios do Curso Cype 3D</h3>
+        
+        <p>O Curso Cype 3D Metálicas 3D oferece o método único chamado VQS (Velocidade, Qualidade e Segurança), com esse metodo o Engenheiro Estrutural Magno Moreira já treinou mais de 1000 profissionais em videoaulas passo a passo. Neste Curso você aprenderá na prática todas as Etapas do Cálculo Estrutural de Galpões Metálicos, Mezaninos e Telhados de forma fácil e direta ao ponto.</p>
+
+        <p>A realização do curso CYPE Metálicas 3D permitirá você adquirir habilidades essenciais para a utilização mais eficaz do software. Você vai aprender a criar modelos tridimensionais de estruturas metálicas, aplicar cargas e realizar verificações de acordo com as normas técnicas e regulamentos vigentes. Isso resulta em projetos estruturais mais rápidos, seguros e com qualidade.</p>
+        
+        <h3> Certificação Internacional</h3>
+    
+        
+        <p> Certificação em CYPE 3D é diferencial. Além de conhecimento, é reconhecimento formal. Empresas valorizam profissionais certificados. Abra portas para oportunidades desafiadoras.</p>
+        
+        
+        <p style="text-align: center;"><strong>Garanta vaga no mercado de estruturas metálicas!</strong></p>
 
 
-Se você está em busca de conhecimentos avançados em cálculo estrutural de galpões metálicos, mezaninos e telhados, o curso CYPE 3D é a opção perfeita para você.<br><br>
- Neste curso abrangente, você terá acesso a videoaulas detalhadas, ministradas por um Engenheiro Estrutural altamente qualificado, que irá guiá-lo através de todo o processo, desde o básico até o avançado. <br><br>
-Com as habilidades adquiridas neste curso, você será capaz de calcular, modelar, configurar e dimensionar estruturas metálicas com o software CYPE 3D Metálicas. <br><br>
-Prepare-se para ganhar velocidade, qualidade e segurança em seus projetos de estruturas metálicas, além de obter uma Certificação Internacional em CYPE 3D, que garantirá sua vaga no competitivo mercado de trabalho. <br><br>
-<br />Matricule Já!  </b></p> </div>
-</div>
-</div>
-</div>
-<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-979dcf1" data-id="979dcf1" data-element_type="column">
-<div class="elementor-widget-wrap elementor-element-populated">
-<div class="elementor-element elementor-element-b3b0ef3 elementor-aspect-ratio-169 elementor-widget elementor-widget-video" data-id="b3b0ef3" data-element_type="widget" data-settings="{&quot;youtube_url&quot;:&quot;https:\/\/youtu.be\/kd-4UvWhy-4&quot;,&quot;video_type&quot;:&quot;youtube&quot;,&quot;controls&quot;:&quot;yes&quot;,&quot;aspect_ratio&quot;:&quot;169&quot;}" data-widget_type="video.default">
-<div class="elementor-widget-container">
-<style>/*! elementor - v3.6.6 - 08-06-2022 */
-.elementor-widget-video .elementor-widget-container{overflow:hidden;-webkit-transform:translateZ(0);transform:translateZ(0)}.elementor-widget-video .elementor-open-inline .elementor-custom-embed-image-overlay{position:absolute;top:0;left:0;width:100%;height:100%;background-size:cover;background-position:50%}.elementor-widget-video .elementor-custom-embed-image-overlay{cursor:pointer;text-align:center}.elementor-widget-video .elementor-custom-embed-image-overlay:hover .elementor-custom-embed-play i{opacity:1}.elementor-widget-video .elementor-custom-embed-image-overlay img{display:block;width:100%}.elementor-widget-video .e-hosted-video .elementor-video{-o-object-fit:cover;object-fit:cover}</style> <div class="elementor-wrapper elementor-fit-aspect-ratio elementor-open-inline">
-<div><iframe width="560" height="315" src="https://www.youtube.com/embed/ZZYgYRmkkpA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div> </div>
-</div>
-</div>
-<div class="elementor-element elementor-element-4684aa2 elementor-align-center elementor-widget elementor-widget-button" data-id="4684aa2" data-element_type="widget" data-widget_type="button.default">
-<div class="elementor-widget-container">
-<div class="elementor-button-wrapper">
-<a href="https://chk.eduzz.com/1990526" class="elementor-button-link elementor-button elementor-size-sm" role="button">
-<span class="elementor-button-content-wrapper">
-<span class="elementor-button-icon elementor-align-icon-right">
-<i aria-hidden="true" class="far fa-hand-point-up"></i> </span>
-<span class="elementor-button-text">COMPRAR CURSO AGORA!</span>
-</span>
-</a>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-6d504a5 elementor-widget elementor-widget-image" data-id="6d504a5" data-element_type="widget" data-widget_type="image.default">
-<div class="elementor-widget-container">
-<style>/*! elementor - v3.6.6 - 08-06-2022 */
-.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style> <img width="509" height="99" src="https://upcarreira.com.br/wp-content/uploads/2021/10/pagmento-seguro-upcarreira.jpeg" class="attachment-large size-large" alt="" loading="lazy" srcset="https://upcarreira.com.br/wp-content/uploads/2021/10/pagmento-seguro-upcarreira.jpeg 509w, https://upcarreira.com.br/wp-content/uploads/2021/10/pagmento-seguro-upcarreira-300x58.jpeg 300w" sizes="(max-width: 509px) 100vw, 509px" /> </div>
-</div>
-<div class="elementor-element elementor-element-a883f63 elementor-widget elementor-widget-testimonial" data-id="a883f63" data-element_type="widget" data-widget_type="testimonial.default">
-<div class="elementor-widget-container">
-<style>/*! elementor - v3.6.6 - 08-06-2022 */
-.elementor-testimonial-wrapper{overflow:hidden;text-align:center}.elementor-testimonial-wrapper .elementor-testimonial-content{font-size:1.3em;margin-bottom:20px}.elementor-testimonial-wrapper .elementor-testimonial-name{line-height:1.5;display:block}.elementor-testimonial-wrapper .elementor-testimonial-job{font-size:.85em;display:block}.elementor-testimonial-wrapper .elementor-testimonial-meta{width:100%;line-height:1}.elementor-testimonial-wrapper .elementor-testimonial-meta-inner{display:inline-block}.elementor-testimonial-wrapper .elementor-testimonial-meta .elementor-testimonial-details,.elementor-testimonial-wrapper .elementor-testimonial-meta .elementor-testimonial-image{display:table-cell;vertical-align:middle}.elementor-testimonial-wrapper .elementor-testimonial-meta .elementor-testimonial-image img{width:60px;height:60px;border-radius:50%;-o-object-fit:cover;object-fit:cover;max-width:none}.elementor-testimonial-wrapper .elementor-testimonial-meta.elementor-testimonial-image-position-aside .elementor-testimonial-image{padding-right:15px}.elementor-testimonial-wrapper .elementor-testimonial-meta.elementor-testimonial-image-position-aside .elementor-testimonial-details{text-align:left}.elementor-testimonial-wrapper .elementor-testimonial-meta.elementor-testimonial-image-position-top .elementor-testimonial-details,.elementor-testimonial-wrapper .elementor-testimonial-meta.elementor-testimonial-image-position-top .elementor-testimonial-image{display:block}.elementor-testimonial-wrapper .elementor-testimonial-meta.elementor-testimonial-image-position-top .elementor-testimonial-image{margin-bottom:20px}</style> <div class="elementor-testimonial-wrapper">
-<div class="elementor-testimonial-content"><i>Muito bom o curso, consegui aprender muitas coisas, acredito que a escola de software UPCARREIRA/ está de parabéns pelo excelente trabalho".</i></div>
-<div class="elementor-testimonial-meta">
-<div class="elementor-testimonial-meta-inner">
+        <div class="center-button" style="margin-top: 20px;">
+            <a href="https://chk.eduzz.com/1990526" class="cta-button">COMPRAR O CURSO AGORA</a>
+        </div>
 
-<div class="elementor-testimonial-details">
-<div class="elementor-testimonial-name">Eng. Rafael Henrique</div>
-<div class="elementor-testimonial-job">Engenheiro Civil</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-ea3b6e0 elementor-star-rating--align-center elementor--star-style-star_fontawesome elementor-widget elementor-widget-star-rating" data-id="ea3b6e0" data-element_type="widget" data-widget_type="star-rating.default">
-<div class="elementor-widget-container">
-<style>/*! elementor - v3.6.6 - 08-06-2022 */
-.elementor-star-rating{color:#ccd6df;font-family:eicons;display:inline-block}.elementor-star-rating i{display:inline-block;position:relative;font-style:normal;cursor:default}.elementor-star-rating i:before{content:"\e934";display:block;font-size:inherit;font-family:inherit;position:absolute;overflow:hidden;color:#f0ad4e;top:0;left:0}.elementor-star-rating .elementor-star-empty:before{content:none}.elementor-star-rating .elementor-star-1:before{width:10%}.elementor-star-rating .elementor-star-2:before{width:20%}.elementor-star-rating .elementor-star-3:before{width:30%}.elementor-star-rating .elementor-star-4:before{width:40%}.elementor-star-rating .elementor-star-5:before{width:50%}.elementor-star-rating .elementor-star-6:before{width:60%}.elementor-star-rating .elementor-star-7:before{width:70%}.elementor-star-rating .elementor-star-8:before{width:80%}.elementor-star-rating .elementor-star-9:before{width:90%}.elementor-star-rating__wrapper{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.elementor-star-rating__title{margin-right:10px}.elementor-star-rating--align-right .elementor-star-rating__wrapper{text-align:right;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}.elementor-star-rating--align-left .elementor-star-rating__wrapper{text-align:left;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start}.elementor-star-rating--align-center .elementor-star-rating__wrapper{text-align:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.elementor-star-rating--align-justify .elementor-star-rating__title{margin-right:auto}@media (max-width:1024px){.elementor-star-rating-tablet--align-right .elementor-star-rating__wrapper{text-align:right;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}.elementor-star-rating-tablet--align-left .elementor-star-rating__wrapper{text-align:left;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start}.elementor-star-rating-tablet--align-center .elementor-star-rating__wrapper{text-align:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.elementor-star-rating-tablet--align-justify .elementor-star-rating__title{margin-right:auto}}@media (max-width:767px){.elementor-star-rating-mobile--align-right .elementor-star-rating__wrapper{text-align:right;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end}.elementor-star-rating-mobile--align-left .elementor-star-rating__wrapper{text-align:left;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start}.elementor-star-rating-mobile--align-center .elementor-star-rating__wrapper{text-align:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.elementor-star-rating-mobile--align-justify .elementor-star-rating__title{margin-right:auto}}.last-star{letter-spacing:0}.elementor--star-style-star_unicode .elementor-star-rating{font-family:Arial,Helvetica,sans-serif}.elementor--star-style-star_unicode .elementor-star-rating i:not(.elementor-star-empty):before{content:"\002605"}</style>
-<div class="elementor-star-rating__wrapper">
-<div class="elementor-star-rating" title="5/5" itemtype="http://schema.org/Rating" itemscope="" itemprop="reviewRating"><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i> <span itemprop="ratingValue" class="elementor-screen-only">5/5</span></div> </div>
-</div>
-</div>
-</div>
-</div>
-</div>
 </section>
-<section class="elementor-section elementor-top-section elementor-element elementor-element-32a8db4c elementor-section-content-middle elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="32a8db4c" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-<div class="elementor-container elementor-column-gap-default">
-<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-21061455" data-id="21061455" data-element_type="column">
-<div class="elementor-widget-wrap elementor-element-populated">
-<div class="elementor-element elementor-element-c1f5678 elementor-widget elementor-widget-heading" data-id="c1f5678" data-element_type="widget" data-widget_type="heading.default">
+    
+   <!-- Seção: Professor do Curso -->
+<section id="professor-curso">
+    <h2 class="titulo-secao">Conheça o Professor do Curso</h2>
+    <div class="professor-info">
+        <img src="./images/professor-magno-moreira-upcarreira.jpg" alt="Foto do Professor Magno Moreira" class="professor-foto" width="200" height="200">
+        <div class="professor-descricao">
+            <h3 class="subtitulo">Magno Moreira</h3>
+            <p>O professor Magno Moreira é um dos maiores especialistas no Software no Brasil na atualidade, formado em engenharia civil pela Faculdade São Judas em São Paulo, especialista em diversos softwares como: Pro-Elétrica, Cypecad e Cype 3D Metálicas. Já ministrou treinamentos presenciais na Multiplus e suporte técnico aos usuários do software. Desenvolvimento e gerenciamento de projetos estruturais, instalações e arquitetônicos, desde a concepção, dimensionamento, compatibilização e detalhamento.
+                Utilizando ferramentas BIM para ganho de produção e reduzir falhas e custo dos projetos sem afetar a qualidade e desempenho. Autor do Método VQS (Velocidade, Qualidade e Segurança) para Ensino de Software de Estruturas. </p>
+            <h3 class="subtitulo">Experiência e Qualificações</h3>
+            <ul class="professor-list">
+                <li>Engenheiro Civil pela Universidade São Judas Tadeu (2008/2013)</li>
+                <li>Início na Engenharia Civil em março de 2009 na Alternativa Digital</li>
+                <li>Equipe técnica da Multiplus a partir de novembro de 2009</li>
+                <li>Colaborador da BRZ Projetos de Engenharia (2012-2018)</li>
+                <li>Professor titular na UpCarreira desde setembro de 2015</li>
+                <li>Fundador da CMAP Soluções em Engenharia em agosto de 2018</li>
+                <a href="https://www.linkedin.com/in/magno-moreira-894a32111/" target="_blank" rel="noopener noreferrer">LinkedIn Professor</a>
 
-	<div style="text-align:center;">
-    <img src="https://www.upcarreira.com.br/curso-cype3d/images/curso-cype-3d-calculo-estrutura-metalica-upcarreira-4.jpg", alt="Curso Cype 3D Metálicas" width="50%" height="50%">
+              </ul>
 
-</div>
-<div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default"><br> Imagine você sendo um especialista em Cálculo Estrutural de Estruturas Metálicas com o Curso Cype 3D:​</h2> </div>
-
-
-</div> 
-
-
-<div class="elementor-element elementor-element-18b8eb0b elementor-align-left elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="18b8eb0b" data-element_type="widget" data-widget_type="icon-list.default">
-<div class="elementor-widget-container">
-<link rel="stylesheet" href="https://upcarreira.com.br/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css"> <ul class="elementor-icon-list-items">
-	<li class="elementor-icon-list-item">
-	<span class="elementor-icon-list-text">✅ Criando Projetos de galpão metálico com o software Cype 3D e Faturando muito $ com seus projetos!
-
-		Mas, e você? Também quer ser um Engenheiro Estrutural de sucesso como ele? Então, não perca mais tempo e matricule-se agora no Curso Cype 3d Metálicas na Prática - Cálculo de Estruturas Metálicas.</span>
-	</li><br>
-	<li class="elementor-icon-list-item">
-<span class="elementor-icon-list-text">✅ Enfrentar qualquer cálculo estrutural de galpões metálicos, mezaninos, telhados de acordo com as Téncnicas (NBR6118 (Concreto Armado), Fundações (NBR6122),
-	Carregamentos de Acordo com as Normas: ABNT NBR 8800:2008, ABNT NBR 14762:2010, AISI (Brasil), Eurocódigo 4, ABNT NBR 7190, ABNT NBR 6123, ABNT NBR 15421:2006, ABNT NBR-8681/84, NBR6118).</span>
-</li><br>
-<li class="elementor-icon-list-item">
-<span class="elementor-icon-list-text">✅ Aprender a fazer projeto de cálculo de estruturas metálicas através do nosso método único VQS (Velocidade, Qualidade, Segurança), indo além de ser <b>Piloto de Software.</span>
-</li><br>
-<li class="elementor-icon-list-item">
-<span class="elementor-icon-list-text">✅ Calcular, Modelar, projetar e analisar um projeto completo de estruturas metálicas como galpões, mezaninos, telhados.</span>
-</li><br>
-<li class="elementor-icon-list-item">
-<span class="elementor-icon-list-text">✅ Dar um UP na sua Carreira, e obter os melhoes empregos e negócios na área de cálculo de estruturas metálicas</span>
-</li><br>
-<li class="elementor-icon-list-item">
-<span class="elementor-icon-list-text"> ✅ Realizar o cálculo, dimensionamento e verificação de estruturas, aço laminado, aço composto, aço enformado, mistas, alumínio e madeira, submetidas a ações gravitacionais, vento, sismo e neve.</span>
-</li><br>
-
-<li class="elementor-icon-list-item">
-<span class="elementor-icon-list-text">✅ Fazer os Carregamentos conforme normas (NBR 6120), barras (NBR 7480), ventos (NBR 6123), ações e combinações.</span>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-
-</div>
-
-<section class="elementor-section elementor-top-section elementor-element elementor-element-32a8db4c elementor-section-content-middle elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="32a8db4c" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-	<div class="elementor-container elementor-column-gap-default">
-	<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-21061455" data-id="21061455" data-element_type="column">
-	<div class="elementor-widget-wrap elementor-element-populated">
-	<div class="elementor-element elementor-element-c1f5678 elementor-widget elementor-widget-heading" data-id="c1f5678" data-element_type="widget" data-widget_type="heading.default">
-	
-		
-	<div class="elementor-widget-container">
-	<h3 class="elementor-heading-title elementor-size-default"> 
-		Curso CYPE 3D para Cálculo Estrutural de Estruturas Metálicas de Galpões: Domine o Passo a Passo e Alavanque sua Carreira		​</h3> <br><br>
-	
-	
-		  <p class="curso-cype3d">
-			Se você está em busca de conhecimentos avançados em cálculo estrutural de galpões metálicos, mezaninos e telhados, o curso CYPE 3D é a opção perfeita para você. Neste curso abrangente, você terá acesso a videoaulas detalhadas, ministradas por um Engenheiro Estrutural altamente qualificado, que irá guiá-lo através de todo o processo, desde o básico até o avançado. Com as habilidades adquiridas neste curso, você será capaz de calcular, modelar, configurar e dimensionar estruturas metálicas com o software CYPE 3D Metálicas. Prepare-se para ganhar velocidade, qualidade e segurança em seus projetos de estruturas metálicas, além de obter uma Certificação Internacional em CYPE 3D, que garantirá sua vaga no competitivo mercado de trabalho.
-		  </p>
-		  
-		  <p class="curso-cype3d"><strong>Domine o Passo a Passo em Videoaulas Detalhadas</strong></p>
-		  
-		  <p class="curso-cype3d">
-			O <strong>Curso Cype 3D</strong> é conhecido por oferecer um método único de ensino, o <strong>VQS (Velocidade, Qualidade e Segurança)</strong>, que proporciona uma experiência de aprendizado excepcional. Com as videoaulas ministradas por um Engenheiro Estrutural especializado, você será conduzido através de cada etapa do processo, tela por tela, em um formato didático e de fácil compreensão. Ao acompanhar o passo a passo detalhado, você irá dominar as técnicas necessárias para calcular e modelar estruturas metálicas, garantindo precisão e eficiência em seus projetos.
-		  </p>
-		  
-		  <p class="curso-cype3d"><strong>Ganhe Velocidade, Qualidade e Segurança em seus Projetos</strong>.</p>
-		  
-		  <p class="curso-cype3d">
-			Ao dominar o uso do software CYPE 3D Metálicas por meio do curso, você estará ganhando vantagem competitiva em seus projetos de estruturas metálicas. Através do método VQS, você aprenderá a utilizar as ferramentas avançadas do software para otimizar o cálculo, configuração e dimensionamento das estruturas. Isso resultará em projetos mais rápidos, de alta qualidade e com maior segurança, atendendo aos requisitos técnicos e normas específicas. Ao implementar as práticas aprendidas no curso, você economizará tempo e recursos, além de obter resultados superiores em seus projetos.
-		  </p>
-		  
-		  <p class="curso-cype3d"><strong>Certificação Internacional em CYPE 3D: Abra Portas para o Mercado de Trabalho</strong></p>
-		  
-		  <p class="curso-cype3d">
-			A obtenção da Certificação Internacional em CYPE 3D é um diferencial significativo em sua carreira como Engenheiro Estrutural. Além de adquirir conhecimentos técnicos avançados, a certificação é um reconhecimento formal de suas habilidades e competências no uso do software. Empresas do setor de construção civil e engenharia valorizam profissionais certificados, pois eles demonstram um alto nível de expertise e comprometimento com a excelência. Ao garantir sua vaga no mercado de trabalho com a certificação, você estará abrindo portas para oportunidades profissionais promissoras e desafiadoras.
-		  </p>
-		
-		  
-		  <p class="curso-cype3d">
-			O curso CYPE 3D é a escolha ideal para engenheiros e profissionais da área de estruturas metálicas que desejam aprimorar suas habilidades e se destacar no mercado de trabalho. Com um método de ensino único, videoaulas detalhadas e a garantia de uma Certificação Internacional em CYPE 3D, você estará investindo em sua carreira e abrindo portas para um futuro de sucesso. Não perca tempo, adquira já o curso e comece a dominar o cálculo estrutural de galpões metálicos, mezaninos e telhados com o software CYPE 3D Metálicas.
-			
-			<br><br>Garanta sua vaga no mercado de trabalho e alcance resultados extraordinários em seus projetos de estruturas metálicas.
-		  </p>
-		  
-		  
-		  
-		  </div>
-	
-	
-	</div> 
-	
-<section class="elementor-section elementor-top-section elementor-element elementor-element-12cadc79 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="12cadc79" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-<div class="elementor-container elementor-column-gap-default">
-<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6feee520" data-id="6feee520" data-element_type="column">
-<div class="elementor-widget-wrap elementor-element-populated">
-<div class="elementor-element elementor-element-2799437 elementor-align-center elementor-widget elementor-widget-button" data-id="2799437" data-element_type="widget" data-widget_type="button.default">
-<div class="elementor-widget-container">
-<div class="elementor-button-wrapper">
-<a href="https://chk.eduzz.com/1990526" class="elementor-button-link elementor-button elementor-size-sm" role="button">
-<span class="elementor-button-content-wrapper">
-<span class="elementor-button-icon elementor-align-icon-right">
-<i aria-hidden="true" class="far fa-hand-point-up"></i> </span>
-<span class="elementor-button-text">COMPRAR CURSO AGORA!</span>
-</span>
-</a>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-69435a1 elementor-widget elementor-widget-heading" data-id="69435a1" data-element_type="widget" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">O que nossos alunos dizem sobre o Curso</h2> </div>
-</div>
-<section class="elementor-section elementor-inner-section elementor-element elementor-element-11341a83 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="11341a83" data-element_type="section">
-<div class="elementor-container elementor-column-gap-no">
-<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-2ded9885" data-id="2ded9885" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-<div class="elementor-widget-wrap elementor-element-populated">
-<div class="elementor-element elementor-element-2fb061b9 elementor-widget elementor-widget-testimonial" data-id="2fb061b9" data-element_type="widget" data-widget_type="testimonial.default">
-<div class="elementor-widget-container">
-<div class="elementor-testimonial-wrapper">
-<div class="elementor-testimonial-content">Muito bom o curso, consegui aprender muitas coisas, acredito que a escola de software UPCARREIRA/ está de parabéns pelo excelente trabalho".</div>
-<div class="elementor-testimonial-meta">
-<div class="elementor-testimonial-meta-inner">
-<div class="elementor-testimonial-details">
-<div class="elementor-testimonial-name">Eng. Rafael Henrique </div>
-<div class="elementor-testimonial-job">Engenheiro Estrutural</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-594fc96c elementor-star-rating--align-center elementor--star-style-star_fontawesome elementor-widget elementor-widget-star-rating" data-id="594fc96c" data-element_type="widget" data-widget_type="star-rating.default">
-<div class="elementor-widget-container">
-<div class="elementor-star-rating__wrapper">
-<div class="elementor-star-rating" title="5/5" itemtype="http://schema.org/Rating" itemscope="" itemprop="reviewRating"><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i> <span itemprop="ratingValue" class="elementor-screen-only">5/5</span></div> </div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-2f3c43a4" data-id="2f3c43a4" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-<div class="elementor-widget-wrap elementor-element-populated">
-<div class="elementor-element elementor-element-1b21d32e elementor-widget elementor-widget-testimonial" data-id="1b21d32e" data-element_type="widget" data-widget_type="testimonial.default">
-<div class="elementor-widget-container">
-<div class="elementor-testimonial-wrapper">
-<div class="elementor-testimonial-content">Ótimo curso, simples e direto nos pontos chave do programa."</div>
-<div class="elementor-testimonial-meta">
-<div class="elementor-testimonial-meta-inner">
-<div class="elementor-testimonial-details">
-<div class="elementor-testimonial-name">Marco Aurelio</div>
-<div class="elementor-testimonial-job">Engenheiro</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-50cd8506 elementor-star-rating--align-center elementor--star-style-star_fontawesome elementor-widget elementor-widget-star-rating" data-id="50cd8506" data-element_type="widget" data-widget_type="star-rating.default">
-<div class="elementor-widget-container">
-<div class="elementor-star-rating__wrapper">
-<div class="elementor-star-rating" title="5/5" itemtype="http://schema.org/Rating" itemscope="" itemprop="reviewRating"><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i> <span itemprop="ratingValue" class="elementor-screen-only">5/5</span></div> </div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-647c1b9e" data-id="647c1b9e" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-<div class="elementor-widget-wrap elementor-element-populated">
-<div class="elementor-element elementor-element-13b6fb86 elementor-widget elementor-widget-testimonial" data-id="13b6fb86" data-element_type="widget" data-widget_type="testimonial.default">
-<div class="elementor-widget-container">
-<div class="elementor-testimonial-wrapper">
-<div class="elementor-testimonial-content">"O desenvolvimento do curso se deu via desenvolvimento de um projeto para um barracão, o que ajuda a contextualizar os conhecimentos ali apresentados."</div>
-<div class="elementor-testimonial-meta">
-<div class="elementor-testimonial-meta-inner">
-<div class="elementor-testimonial-details">
-<div class="elementor-testimonial-name">Eng. Raphael Maximiano</div>
-<div class="elementor-testimonial-job">Engenheiro</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-6909e2d2 elementor-star-rating--align-center elementor--star-style-star_fontawesome elementor-widget elementor-widget-star-rating" data-id="6909e2d2" data-element_type="widget" data-widget_type="star-rating.default">
-<div class="elementor-widget-container">
-<div class="elementor-star-rating__wrapper">
-<div class="elementor-star-rating" title="5/5" itemtype="http://schema.org/Rating" itemscope="" itemprop="reviewRating"><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i><i class="elementor-star-full">&#xE934;</i> <span itemprop="ratingValue" class="elementor-screen-only">5/5</span></div> </div>
-</div>
-</div>
-</div>
-</div>
-</div>
+              <div class="center-button" style="margin-top: 20px;">
+                <a href="https://chk.eduzz.com/1990526" class="cta-button">COMPRAR O CURSO AGORA</a>
+            </div>
+        </div>
+    </div>
 </section>
-</div>
-</div>
-</div>
+
+<!-- Seção: Conteúdo do Curso -->
+<section id="conteudo-curso" class="section">
+    <div class="container">
+      <h2 class="section-heading">Conteúdo do Curso</h2>
+      <ul class="course-content">
+        <li>Aprender na prática a modelar, configurar e dimensionar um galpão metálico de 640 m² e 12 metros de altura através do Software Cype/Metálicas 3D</li>
+        <li>Abordagem de itens como lançamento da estrutura a partir de arquivo dwg, definição de perfis, flambagem, flechas, lançamento de cargas, vento, verificação de resultados, correção de erros, fundações, Ligações soldadas e aparafusadas, relatórios e geração de desenhos.</li>
+        <li>Conhecimento das principais ferramentas do software para elaborar projetos com qualidade, agilidade, desempenho e economia.</li>
+        <li>Método de ensino que proporciona uma Aprendizagem Fácil e Rápida.</li>
+        <li>Vídeo Introdução ao Curso - Importante!</li>
+        <li>Como Instalar Cype/Cypecad Versão Temporário de Teste Brasileira Parte 1</li>
+        <li>Como Utilizar o Cypecad e Cype 3D para Projetos em BIM</li>
+        <li>Download do Arquivos do Curso</li>
+      </ul>
+      <div class="video-container" style="text-align: center;">
+        <iframe src="https://player.vimeo.com/video/303049382?h=842b8c455e" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    
+      <div class="center-button" style="margin-top: 20px;">
+        <a href="https://chk.eduzz.com/1990526" class="cta-button">COMPRAR O CURSO AGORA</a>
+    </div>
+    </div>
+  </section>
+
+<!-- Seção: Depoimentos de Alunos -->
+<section id="depoimentos-alunos">
+    <h2 class="titulo-secao">Depoimentos de Alunos</h2>
+    <div class="depoimento">
+     
+        <p class="depoimento-texto">  <em>"Ótimo curso, simples e direto nos pontos chave do programa.</em> Marco Aurelio - Engenheiro Civil." <span class="testimonial-stars">⭐⭐⭐⭐⭐</span></p>
+        
+    </div>
+    <div class="depoimento">
+     
+        <p class="depoimento-texto">  <em>"O desenvolvimento do curso se deu via desenvolvimento de um projeto para um barracão, o que ajuda a contextualizar os conhecimentos ali apresentados."</em> Eng. Raphael Maximiano
+            Engenheiro <span class="testimonial-stars">⭐⭐⭐⭐⭐</span></p>
+        
+    </div>
 </section>
-<section class="elementor-section elementor-top-section elementor-element elementor-element-6c261f7 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6c261f7" data-element_type="section">
-<div class="elementor-container elementor-column-gap-default">
-<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c9dacaa" data-id="c9dacaa" data-element_type="column">
-<div class="elementor-widget-wrap elementor-element-populated">
-<div class="elementor-element elementor-element-c60057e elementor-align-center elementor-widget elementor-widget-button" data-id="c60057e" data-element_type="widget" data-widget_type="button.default">
-<div class="elementor-widget-container">
-<div class="elementor-button-wrapper">
-<a href="https://chk.eduzz.com/1990526" class="elementor-button-link elementor-button elementor-size-sm" role="button">
-<span class="elementor-button-content-wrapper">
-<span class="elementor-button-icon elementor-align-icon-right">
-<i aria-hidden="true" class="far fa-hand-point-up"></i> </span>
-<span class="elementor-button-text">COMPRAR CURSO AGORA!</span>
-</span>
-</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+
+<section id="certificado">
+    <h2 class="section-heading">Certificado</h2>
+    <p>Precisando de Certificado para horas complementares, Prova de Títulos ou Ascensão Profissional?</p>
+    <p>Ao término do curso e do projeto proposto no curso, seu certificado será emitido pela plataforma de ensino. Além de poder comprovar que se qualificou e está atualizado no mercado de trabalho.</p>
+    <p><strong>Você poderá usar seu certificado emitido neste curso para:</strong></p>
+    <ul class="certificado-list">
+        <li>Extensão universitária (horas extracurriculares)</li>
+        <li>Avaliações de empresas em processos de recrutamento e seleção</li>
+        <li>Avaliações para promoções internas nas empresas</li>
+        <li>Gratificações adicionais conforme plano de carreira</li>
+        <li>Concursos públicos (mediante verificação do edital)</li>
+        <li>Provas de títulos (mediante verificação do edital)</li>
+        <li>Seleções de mestrado e doutorado</li>
+        <li>E diversas outras necessidades</li>
+    </ul>
 </section>
-<section class="elementor-section elementor-top-section elementor-element elementor-element-b3e9175 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b3e9175" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-<div class="elementor-container elementor-column-gap-default">
-<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b756210" data-id="b756210" data-element_type="column">
-<div class="elementor-widget-wrap elementor-element-populated">
-<div class="elementor-element elementor-element-5cbb20b elementor-widget elementor-widget-heading" data-id="5cbb20b" data-element_type="widget" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">PROFESSOR DO CURSO</h2> </div>
-</div>
-<div class="elementor-element elementor-element-075430e elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="075430e" data-element_type="widget" data-widget_type="divider.default">
-<div class="elementor-widget-container">
-<style>/*! elementor - v3.6.6 - 08-06-2022 */
-.elementor-widget-divider{--divider-border-style:none;--divider-border-width:1px;--divider-color:#2c2c2c;--divider-icon-size:20px;--divider-element-spacing:10px;--divider-pattern-height:24px;--divider-pattern-size:20px;--divider-pattern-url:none;--divider-pattern-repeat:repeat-x}.elementor-widget-divider .elementor-divider{display:-webkit-box;display:-ms-flexbox;display:flex}.elementor-widget-divider .elementor-divider__text{font-size:15px;line-height:1;max-width:95%}.elementor-widget-divider .elementor-divider__element{margin:0 var(--divider-element-spacing);-ms-flex-negative:0;flex-shrink:0}.elementor-widget-divider .elementor-icon{font-size:var(--divider-icon-size)}.elementor-widget-divider .elementor-divider-separator{display:-webkit-box;display:-ms-flexbox;display:flex;margin:0;direction:ltr}.elementor-widget-divider--view-line_icon .elementor-divider-separator,.elementor-widget-divider--view-line_text .elementor-divider-separator{-webkit-box-align:center;-ms-flex-align:center;align-items:center}.elementor-widget-divider--view-line_icon .elementor-divider-separator:after,.elementor-widget-divider--view-line_icon .elementor-divider-separator:before,.elementor-widget-divider--view-line_text .elementor-divider-separator:after,.elementor-widget-divider--view-line_text .elementor-divider-separator:before{display:block;content:"";border-bottom:0;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;border-top:var(--divider-border-width) var(--divider-border-style) var(--divider-color)}.elementor-widget-divider--element-align-left .elementor-divider .elementor-divider-separator>.elementor-divider__svg:first-of-type{-webkit-box-flex:0;-ms-flex-positive:0;flex-grow:0;-ms-flex-negative:100;flex-shrink:100}.elementor-widget-divider--element-align-left .elementor-divider-separator:before{content:none}.elementor-widget-divider--element-align-left .elementor-divider__element{margin-left:0}.elementor-widget-divider--element-align-right .elementor-divider .elementor-divider-separator>.elementor-divider__svg:last-of-type{-webkit-box-flex:0;-ms-flex-positive:0;flex-grow:0;-ms-flex-negative:100;flex-shrink:100}.elementor-widget-divider--element-align-right .elementor-divider-separator:after{content:none}.elementor-widget-divider--element-align-right .elementor-divider__element{margin-right:0}.elementor-widget-divider:not(.elementor-widget-divider--view-line_text):not(.elementor-widget-divider--view-line_icon) .elementor-divider-separator{border-top:var(--divider-border-width) var(--divider-border-style) var(--divider-color)}.elementor-widget-divider--separator-type-pattern{--divider-border-style:none}.elementor-widget-divider--separator-type-pattern.elementor-widget-divider--view-line .elementor-divider-separator,.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:after,.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:before,.elementor-widget-divider--separator-type-pattern:not([class*=elementor-widget-divider--view]) .elementor-divider-separator{width:100%;min-height:var(--divider-pattern-height);-webkit-mask-size:var(--divider-pattern-size) 100%;mask-size:var(--divider-pattern-size) 100%;-webkit-mask-repeat:var(--divider-pattern-repeat);mask-repeat:var(--divider-pattern-repeat);background-color:var(--divider-color);-webkit-mask-image:var(--divider-pattern-url);mask-image:var(--divider-pattern-url)}.elementor-widget-divider--no-spacing{--divider-pattern-size:auto}.elementor-widget-divider--bg-round{--divider-pattern-repeat:round}.rtl .elementor-widget-divider .elementor-divider__text{direction:rtl}</style> <div class="elementor-divider">
-<span class="elementor-divider-separator">
-</span>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+
+<section id="perguntas-frequentes" class="section">
+    <div class="container">
+        <h2 class="section-heading">Perguntas Frequentes (FAQ)</h2>
+        <div class="faq-list">
+            <div class="faq-item">
+                <h3>OS PROFESSORES TEM CONHECIMENTO DE ENGENHARIA OU SOMENTE DO SOFTWARE?</h3>
+                <p>Sim, o professor é um engenheiro civil especialista na área.</p>
+            </div>
+            <div class="faq-item">
+                <h3>GOSTARIA DE SABER SE ENSINA PASSO A PASSO, DESDE A CONFIGURAÇÃO DO SOFTWARE ATÉ A FINALIZAÇÃO DO PROJETO?</h3>
+                <p>Sim, ensina passo a passo, tela por tela, em videoaulas do básico ao avançado. Você terá uma experiência incrível ao aprender o software num projeto real praticando seus conhecimentos em uma situação real do dia a dia. Nosso método de VQS lhe dará velocidade, qualidade e segurança aos seus projetos.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Gostaria de saber se vocês disponibilizam o software para download?</h3>
+                <p>Sim, fornecemos a versão de treinamento do software para download para você poder fazer o curso.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>TENHO DIFICULDADE EM CÁLCULO ESTRUTURAL, VOU CONSEGUIR APRENDER MESMO ASSIM?</h3>
+                <p>Sim, o professor vai lhe ensinar tudo que for preciso para você relembrar os conceitos teóricos. Caso o aluno precise, oferecemos um material complementar para você lembrar os conceitos básicos de cálculo estrutural.</p>
+            </div>
+            <div class="faq-item">
+                <h3>PARA QUEM ESSE CURSO É INDICADO? ESTOU NO PRIMEIRO ANO DE FACULDADE, JÁ POSSO FAZER O CURSO?</h3>
+                <p>Este curso é indicado para estudantes de engenharia em geral, engenheiro civil, engenheiro mecânico, técnico em edificações, arquitetos e áreas afins.</p>
+            </div>
+
+                <div class="faq-item">
+                    <h3>QUAL A CARGA HORÁRIO DO CURSO?</h3>
+                    <p>A carga horária do curso é de 220 horas-aula, equivalente em horas a um curso presencial.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>PORQUE ESTUDAR NA UPCARREIRA?</h3>
+                    <p>Somos uma escola especializada em ensino a distância em cursos de tecnologia com os melhores professores e profissionais atuando na área. Nosso método de ensino VQS lhe ensinará mais rápido através da prática de projetos reais do dia a dia.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>EM MÉDIA QUAL O TEMPO VOU CONSEGUIR ME FORMA NO CURSO?</h3>
+                    <p>A formação é relativa ao esforço e tempo dedicado para cada aluno. Em média, estudando pelo menos 1 hora por semana e fazendo o projeto junto com o professor, de 1 a 3 meses você se forma e já pode começar a ganhar dinheiro com seus projetos e ingressar na área.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h3>MÉTODO DE ENSINO - MODALIDADE A DISTÂNCIA (NOTA IMPORTANTE)</h3>
+                    <p>Nossa metodologia de ensino é “faça você mesmo” seus projetos e impressione o mercado com as suas habilidades.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>QUANDO COMEÇO A ESTUDAR? INFORMAÇÕES SOBRE A LIBERAÇÃO E ACESSO AO CURSO!</h3>
+                    <p>Seu curso é liberado na hora assim que confirma o pagamento, você recebe os dados de acesso ao curso no seu e-mail.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>VOU REALMENTE APRENDER COM O CURSO?</h3>
+                    <p>Sim, você aprenderá com o nosso curso. Nossa metodologia de ensino é inovadora através de projetos reais do dia a dia, tudo em videoaulas. Você assiste o professor fazendo o projeto e replica no seu software, aprendendo na prática e podendo “fazer você mesmo” seus projetos e impressionar o mercado com as suas habilidades.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>COMO FUNCIONA O SUPORTE?</h3>
+                    <p>Você pode enviar suas dúvidas diretamente pela plataforma de ensino, abaixo das videoaulas. Também é possível solicitar suporte por e-mail e notificar ajuda pelo WhatsApp. O suporte é o ponto forte de todos os nossos cursos. Desejamos que você realmente aprenda e estamos sempre preparados para ajudá-lo com suas dúvidas.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>TODOS OS CURSOS OFERECEM CERTIFICADOS?</h3>
+                    <p>Sim, todos os cursos têm certificado de conclusão. O Certificado tem validade em todo território nacional, servindo para atividades extracurriculares na faculdade, para completar horas aulas e, em casos específicos, serve como prova de título em concurso público e também como ascensão profissional.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>É UM CURSO ONLINE E OS MÓDULOS SÃO POSTADOS CONFORME UM CRONOGRAMA?</h3>
+                    <p>Todos os módulos do curso já foram gravados, e você pode assistir a eles conforme seus objetivos e ritmo de estudos. O curso é atualizado conforme a necessidade para se adequar às demandas do mercado, e os módulos podem ser adicionados posteriormente durante o curso.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>QUAL A GARANTIA QUE TENHO MATRICULANDO NO CURSO?</h3>
+                    <p>Você tem a garantia incondicional de 7 dias corridos após o pagamento do curso para pedir reembolso segundo o código do consumidor.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>QUAIS AS FORMAS DE PAGAMENTO? É SEGURO O PAGAMENTO?</h3>
+                    <p>Aceitamos todas as formas de pagamento: Cartão de Crédito em até 12X, PIX e boleto bancário.</p>
+                </div>
+                
+            <!-- Adicione os outros itens da FAQ aqui -->
+        </div>
+    </div>
 </section>
-<section class="elementor-section elementor-top-section elementor-element elementor-element-51075da elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="51075da" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-<div class="elementor-container elementor-column-gap-default">
-<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-acc57a5" data-id="acc57a5" data-element_type="column">
-<div class="elementor-widget-wrap elementor-element-populated">
-<div class="elementor-element elementor-element-163f9a5 elementor-widget elementor-widget-image" data-id="163f9a5" data-element_type="widget" data-widget_type="image.default">
-<div class="elementor-widget-container">
-<img width="150" height="150" src="https://upcarreira.com.br/wp-content/uploads/2021/10/Professor-Magno-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" srcset="https://upcarreira.com.br/wp-content/uploads/2021/10/Professor-Magno-150x150.jpg 150w, https://upcarreira.com.br/wp-content/uploads/2021/10/Professor-Magno.jpg 168w" sizes="(max-width: 150px) 100vw, 150px" /> </div>
-</div>
-<div class="elementor-element elementor-element-07a7064 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="07a7064" data-element_type="widget" data-widget_type="divider.default">
-<div class="elementor-widget-container">
-<div class="elementor-divider">
-<span class="elementor-divider-separator">
-</span>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-5725fc1 elementor-view-default elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="5725fc1" data-element_type="widget" data-widget_type="icon-box.default">
-<div class="elementor-widget-container">
-<link rel="stylesheet" href="https://upcarreira.com.br/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css"> <div class="elementor-icon-box-wrapper">
-<div class="elementor-icon-box-icon">
-<span class="elementor-icon elementor-animation-">
-<i aria-hidden="true" class="fas fa-user-tie"></i> </span>
-</div>
-<div class="elementor-icon-box-content">
-<h3 class="elementor-icon-box-title">
-<span>
-CURRICULUM </span>
-</h3>
-<p class="elementor-icon-box-description">
-O professor Magno Alves é um dos maiores especialistas no Software no Brasil  na atualidade, formado em engenharia civil pela Faculdade São Judas em São Paulo, especialista em diversos softwares como: Pro-Elétrica, Cypecad e Metálicas 3D. Já ministrou treinamentos presenciais na Multiplus e suporte técnico aos usuários do software. Em suas aulas, busca transmitir seus conhecimentos aos alunos, para que estes sejam capazes de aprender e entender, na prática, a utilização do software. </p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-de770cb" data-id="de770cb" data-element_type="column">
-<div class="elementor-widget-wrap elementor-element-populated">
-<div class="elementor-element elementor-element-ff02c6a elementor-aspect-ratio-169 elementor-widget elementor-widget-video" data-id="ff02c6a" data-element_type="widget" data-settings="{&quot;youtube_url&quot;:&quot;https:\/\/youtu.be\/aOipynHt3u8&quot;,&quot;video_type&quot;:&quot;youtube&quot;,&quot;controls&quot;:&quot;yes&quot;,&quot;aspect_ratio&quot;:&quot;169&quot;}" data-widget_type="video.default">
-<div class="elementor-widget-container">
-<div class="elementor-wrapper elementor-fit-aspect-ratio elementor-open-inline">
-<div><iframe src="https://player.vimeo.com/video/303049382?h=842b8c455e" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-	<p><a href="https://vimeo.com/303049382">Aula 01 R01_nvo</a> from <a href="https://vimeo.com/upcarreira">UPCARREIRA</a> on <a href="https://vimeo.com">Vimeo</a>.</p></div>
-</div>
-</div>
-<div class="elementor-element elementor-element-de43292 elementor-align-center elementor-widget elementor-widget-button" data-id="de43292" data-element_type="widget" data-widget_type="button.default">
-<div class="elementor-widget-container">
-<div class="elementor-button-wrapper">
-<a href="https://chk.eduzz.com/1990526" class="elementor-button-link elementor-button elementor-size-sm" role="button">
-<span class="elementor-button-content-wrapper">
-<span class="elementor-button-icon elementor-align-icon-right">
-<i aria-hidden="true" class="far fa-hand-point-up"></i> </span>
-<span class="elementor-button-text">COMPRAR CURSO AGORA!</span>
-</span>
-</a>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-93b995e elementor-widget elementor-widget-image" data-id="93b995e" data-element_type="widget" data-widget_type="image.default">
-<div class="elementor-widget-container">
-<img width="509" height="99" src="https://upcarreira.com.br/wp-content/uploads/2021/10/pagmento-seguro-upcarreira.jpeg" class="attachment-medium_large size-medium_large" alt="" loading="lazy" srcset="https://upcarreira.com.br/wp-content/uploads/2021/10/pagmento-seguro-upcarreira.jpeg 509w, https://upcarreira.com.br/wp-content/uploads/2021/10/pagmento-seguro-upcarreira-300x58.jpeg 300w" sizes="(max-width: 509px) 100vw, 509px" /> </div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section class="elementor-section elementor-top-section elementor-element elementor-element-66c720e8 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="66c720e8" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-<div class="elementor-container elementor-column-gap-default">
-<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-12cb591a" data-id="12cb591a" data-element_type="column">
-<div class="elementor-widget-wrap elementor-element-populated">
-<div class="elementor-element elementor-element-10b9fd94 elementor-widget elementor-widget-heading" data-id="10b9fd94" data-element_type="widget" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h3 class="elementor-heading-title elementor-size-large">Conteúdo do Curso</h3> </div>
-</div>
-<div class="elementor-element elementor-element-272918f3 elementor-widget elementor-widget-accordion" data-id="272918f3" data-element_type="widget" data-widget_type="accordion.default">
-<div class="elementor-widget-container">
-<style>/*! elementor - v3.6.6 - 08-06-2022 */
-.elementor-accordion{text-align:left}.elementor-accordion .elementor-accordion-item{border:1px solid #d4d4d4}.elementor-accordion .elementor-accordion-item+.elementor-accordion-item{border-top:none}.elementor-accordion .elementor-tab-title{margin:0;padding:15px 20px;font-weight:700;line-height:1;cursor:pointer;outline:none}.elementor-accordion .elementor-tab-title .elementor-accordion-icon{display:inline-block;width:1.5em}.elementor-accordion .elementor-tab-title .elementor-accordion-icon svg{width:1em;height:1em}.elementor-accordion .elementor-tab-title .elementor-accordion-icon.elementor-accordion-icon-right{float:right;text-align:right}.elementor-accordion .elementor-tab-title .elementor-accordion-icon.elementor-accordion-icon-left{float:left;text-align:left}.elementor-accordion .elementor-tab-title .elementor-accordion-icon .elementor-accordion-icon-closed{display:block}.elementor-accordion .elementor-tab-title .elementor-accordion-icon .elementor-accordion-icon-opened,.elementor-accordion .elementor-tab-title.elementor-active .elementor-accordion-icon-closed{display:none}.elementor-accordion .elementor-tab-title.elementor-active .elementor-accordion-icon-opened{display:block}.elementor-accordion .elementor-tab-content{display:none;padding:15px 20px;border-top:1px solid #d4d4d4}@media (max-width:767px){.elementor-accordion .elementor-tab-title{padding:12px 15px}.elementor-accordion .elementor-tab-title .elementor-accordion-icon{width:1.2em}.elementor-accordion .elementor-tab-content{padding:7px 15px}}</style> <div class="elementor-accordion" role="tablist">
-<div class="elementor-accordion-item">
-<div id="elementor-tab-title-6571" class="elementor-tab-title" data-tab="1" role="tab" aria-controls="elementor-tab-content-6571" aria-expanded="false">
-<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
-<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
-<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
-</span>
-<a class="elementor-accordion-title" href="">Projeto Completo de um Galpão Metálico com o Software Cype 3d Metálicas</a>
-
-<div id="elementor-tab-content-6571" class="elementor-tab-content elementor-clearfix" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-6571"><p>Este módulo é um módulo iniciante, onde aprenderemos passo a passo a começar a trabalhar com o Software e depos o curso vai ficando avançado no módulo do Edifício de 9 Andar.</p><hr /><p><i class="fa fa-lock" title="" data-tooltip="tooltip" data-original-title="Privado"></i> <i class="fa fa-video-camera" title="" data-tooltip="tooltip" data-original-title="Vídeo"></i> <span class="ordem-aula">1.</span> Vídeo com as Informações Gerais do Curso</p><p><i class="fa fa-lock" title="" data-tooltip="tooltip" data-original-title="Privado"></i> <i class="fa fa-globe" title="" data-tooltip="tooltip" data-original-title="Página"></i> <span class="ordem-aula">2.</span> Informações Gerais – (Arquivos do Curso e Download do Software versão Estudante) Leia Importante!</p><p><i class="fa fa-lock" title="" data-tooltip="tooltip" data-original-title="Privado"></i> <i class="fa fa-globe" title="" data-tooltip="tooltip" data-original-title="Página"></i> <span class="ordem-aula">3.</span> CONTRATO DE PRESTAÇÃO DE SERVIÇOS EDUCACIONAIS</p><p><i class="fa fa-unlock" title="" data-tooltip="tooltip" data-original-title="Aberto"></i> <i class="fa fa-video-camera" title="" data-tooltip="tooltip" data-original-title="Vídeo"></i> <span class="ordem-aula">4.</span> Aula 1 – Apresentacao</p><p><i class="fa fa-unlock" title="" data-tooltip="tooltip" data-original-title="Aberto"></i> <i class="fa fa-video-camera" title="" data-tooltip="tooltip" data-original-title="Vídeo"></i> <span class="ordem-aula">5.</span> Aula – 1.2 – Esquema de introdução e resolução de estruturas 1</p><p><i class="fa fa-lock" title="" data-tooltip="tooltip" data-original-title="Privado"></i> <i class="fa fa-video-camera" title="" data-tooltip="tooltip" data-original-title="Vídeo"></i> <span class="ordem-aula">6.</span> Aula 1.1 – Menus</p><p><i class="fa fa-lock" title="" data-tooltip="tooltip" data-original-title="Privado"></i> <i class="fa fa-video-camera" title="" data-tooltip="tooltip" data-original-title="Vídeo"></i> <span class="ordem-aula">7.</span> Aula 2 – Introducao Automatica</p><p><i class="fa fa-lock" title="" data-tooltip="tooltip" data-original-title="Privado"></i> <i class="fa fa-video-camera" title="" data-tooltip="tooltip" data-original-title="Vídeo"></i> <span class="ordem-aula">8.</span> Aula 3 – Dados Gerais</p><p><i class="fa fa-lock" title="" data-tooltip="tooltip" data-original-title="Privado"></i> <i class="fa fa-video-camera" title="" data-tooltip="tooltip" data-original-title="Vídeo"></i> <span class="ordem-aula">9.</span> Aula 4 – Ventos</p><p><i class="fa fa-lock" title="" data-tooltip="tooltip" data-original-title="Privado"></i> <i class="fa fa-video-camera" title="" data-tooltip="tooltip" data-original-title="Vídeo"></i> <span class="ordem-aula">10.</span> Aula 5 – Combinacoes</p><p><i class="fa fa-lock" title="" data-tooltip="tooltip" data-original-title="Privado"></i> <i class="fa fa-video-camera" title="" data-tooltip="tooltip" data-original-title="Vídeo"></i> <span class="ordem-aula">11.</span> Aula 6.1 –Pilar</p><p><i class="fa fa-lock" title="" data-tooltip="tooltip" data-original-title="Privado"></i> <i class="fa fa-video-camera" title="" data-tooltip="tooltip" data-original-title="Vídeo"></i> <span class="ordem-aula">12.</span> Aula 6.2 -Pilar Parede</p><p><i class="fa fa-lock" title="" data-tooltip="tooltip" data-original-title="Privado"></i> <i class="fa fa-video-camera" title="" data-tooltip="tooltip" data-original-title="Vídeo"></i> <span class="ordem-aula">13.</span> Aula 6.3 – Engastamento de Pilares</p><p><i class="fa fa-lock" title="" data-tooltip="tooltip" data-original-title="Privado"></i> <i class="fa fa-video-camera" title="" data-tooltip="tooltip" data-original-title="Vídeo"></i> <span class="ordem-aula">14.</span> Aula 7 – Linhas de Referencia</p><p><i class="fa fa-lock" title="" data-tooltip="tooltip" data-original-title="Privado"></i> <i class="fa fa-video-camera" title="" data-tooltip="tooltip" data-original-title="Vídeo"></i> <span class="ordem-aula">15.</span> Aula 8 – Vigas</p><p><i class="fa fa-lock" title="" data-tooltip="tooltip" data-original-title="Privado"></i> <i class="fa fa-video-camera" title="" data-tooltip="tooltip" data-original-title="Vídeo"></i> <span class="ordem-aula">16.</span> Aula 8.1 – Lancamento de Vigas</p><p><i class="fa fa-lock" title="" data-tooltip="tooltip" data-original-title="Privado"></i> <i class="fa fa-video-camera" title="" data-tooltip="tooltip" data-original-title="Vídeo"></i> <span class="ordem-aula">17.</span> Aula 8.2 – Condicao de Contornos de Vigas</p><p><i class="fa fa-lock" title="" data-tooltip="tooltip" data-original-title="Privado"></i> <i class="fa fa-video-camera" title="" data-tooltip="tooltip" data-original-title="Vídeo"></i> <span class="ordem-aula">18.</span> Aula 8.3 – Opções em Vigas – Customização</p><p><i class="fa fa-lock" title="" data-tooltip="tooltip" data-original-title="Privado"></i> <i class="fa fa-video-camera" title="" data-tooltip="tooltip" data-original-title="Vídeo"></i> <span class="ordem-aula">19.</span> Aula 8.4 – Tabela de Armaduras</p><p><i class="fa fa-lock" title="" data-tooltip="tooltip" data-original-title="Privado"></i> <i class="fa fa-video-camera" title="" data-tooltip="tooltip" data-original-title="Vídeo"></i> <span class="ordem-aula">20.</span> Aula 9 – Lajes</p><p><i class="fa fa-lock" title="" data-tooltip="tooltip" data-original-title="Privado"></i> <i class="fa fa-video-camera" title="" data-tooltip="tooltip" data-original-title="Vídeo"></i> <span class="ordem-aula">21.</span> Aula 10 – Cargas</p><p><i class="fa fa-lock" title="" data-tooltip="tooltip" data-original-title="Privado"></i> <i class="fa fa-video-camera" title="" data-tooltip="tooltip" data-original-title="Vídeo"></i> <span class="ordem-aula">22.</span> Aula 11 – Copia de Pisos e Grupos</p><p><i class="fa fa-lock" title="" data-tooltip="tooltip" data-original-title="Privado"></i> <i class="fa fa-video-camera" title="" data-tooltip="tooltip" data-original-title="Vídeo"></i> <span class="ordem-aula">23.</span> Aula 11.1 – Desnivel em Piso e Vigas Semi-Invertidas</p><p><i class="fa fa-lock" title="" data-tooltip="tooltip" data-original-title="Privado"></i> <i class="fa fa-video-camera" title="" data-tooltip="tooltip" data-original-title="Vídeo"></i> <span class="ordem-aula">24.</span> Aula 12 – Cortes e Cotas</p><p><i class="fa fa-lock" title="" data-tooltip="tooltip" data-original-title="Privado"></i> <i class="fa fa-video-camera" title="" data-tooltip="tooltip" data-original-title="Vídeo"></i> <span class="ordem-aula">25.</span> Aula 12.1 – Referencias Visíveis e Secao do Edifício</p><p><i class="fa fa-lock" title="" data-tooltip="tooltip" data-original-title="Privado"></i> <i class="fa fa-video-camera" title="" data-tooltip="tooltip" data-original-title="Vídeo"></i> <span class="ordem-aula">26.</span> Aula 13 – Cortinas de Subsolo</p><p><i class="fa fa-lock" title="" data-tooltip="tooltip" data-original-title="Privado"></i> <i class="fa fa-video-camera" title="" data-tooltip="tooltip" data-original-title="Vídeo"></i> <span class="ordem-aula">27.</span> Aula 14 – Laje Nervurada</p><p><i class="fa fa-lock" title="" data-tooltip="tooltip" data-original-title="Privado"></i> <i class="fa fa-video-camera" title="" data-tooltip="tooltip" data-original-title="Vídeo"></i> <span class="ordem-aula">28.</span> Aula 15 – Lajes Pre-Fabricadas</p><p><i class="fa fa-lock" title="" data-tooltip="tooltip" data-original-title="Privado"></i> <i class="fa fa-video-camera" title="" data-tooltip="tooltip" data-original-title="Vídeo"></i> <span class="ordem-aula">29.</span> Aula 16 – Laje Inclinada</p><p><i class="fa fa-lock" title="" data-tooltip="tooltip" data-original-title="Privado"></i> <i class="fa fa-video-camera" title="" data-tooltip="tooltip" data-original-title="Vídeo"></i> <span class="ordem-aula">30.</span> Aula 17 – Vigas Curva</p><p><i class="fa fa-lock" title="" data-tooltip="tooltip" data-original-title="Privado"></i> <i class="fa fa-globe" title="" data-tooltip="tooltip" data-original-title="Página"></i> <span class="ordem-aula">31.</span> FAQ – Suporte com Perguntas e Respostas</p></div>
-<div><br>Você vai Aprender na prática com um engenheiro especialista no software tudo que precisa saber para modelar, configurar e dimensionar um galpão metálico de 640 m² e 12 metros de altura através do Software Cype 3D/Metálicas.
-
-	<br><br>Tenha acesso ao melhor treinamento de Cype 3d Metálicas, com as melhores 19 videoaulas sobre cálculo estrutural de estruturas metálicas da sua vida em que ensinamos como modelar, configurar e dimensionar um galpão metálico de 640 m² e 12 metros de altura.
-	
-	<br><br>Abordaremos itens como lançamento da estrutura a partir de arquivo dwg, definição de perfis, flambagem, flechas, lançamento de cargas, vento, verificação de resultados, correção de erros, fundações, Ligações soldadas e aparafusadas, relatórios e geração de desenhos.
-	
-	<br><br>TUDO o que você precisa para ser um Calculista de Estruras Metálicas de Sucesso está neste curso completo, fácil e prático.  
-	
-	<br><br>No final do curso o aluno estará terá conhecido as principais ferramentas do software para poder elaborar projetos com qualidade, agilidade, desempenho e economia.
-	
-	<br><br>Nosso método de ensino proporciona uma Aprendizagem Fácil e Rápida.</div>
-</div>
 
 
-<div id="elementor-tab-content-65711" class="elementor-tab-content elementor-clearfix" data-tab="11" role="tabpanel" aria-labelledby="elementor-tab-title-65711"><p>Informações da Prova Final e como emitir o certificado para atividade extra curricular ou complementar.</p><hr /><p><i class="fa fa-lock" title="" data-tooltip="tooltip" data-original-title="Privado"></i> <i class="fa fa-globe" title="" data-tooltip="tooltip" data-original-title="Página"></i> <span class="ordem-aula">1.</span> Como Emitir Certificado para Atividades Complementares Automaticamente</p><p><i class="fa fa-lock" title="" data-tooltip="tooltip" data-original-title="Privado"></i> <i class="fa fa-globe" title="" data-tooltip="tooltip" data-original-title="Página"></i> <span class="ordem-aula">2.</span> Continue Evoluindo em seus Estudos!</p></div>
-</div>
-<div class="elementor-accordion-item">
-<div id="elementor-tab-title-65712" class="elementor-tab-title" data-tab="12" role="tab" aria-controls="elementor-tab-content-65712" aria-expanded="false">
-<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
-<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
-<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
-</span>
-<div class="elementor-element elementor-element-272918f3 elementor-widget elementor-widget-accordion" data-id="272918f3" data-element_type="widget" data-widget_type="accordion.default">
-	<div class="elementor-widget-container">
-	<style>/*! elementor - v3.6.6 - 08-06-2022 */
-	.elementor-accordion{text-align:left}.elementor-accordion .elementor-accordion-item{border:1px solid #d4d4d4}.elementor-accordion .elementor-accordion-item+.elementor-accordion-item{border-top:none}.elementor-accordion .elementor-tab-title{margin:0;padding:15px 20px;font-weight:700;line-height:1;cursor:pointer;outline:none}.elementor-accordion .elementor-tab-title .elementor-accordion-icon{display:inline-block;width:1.5em}.elementor-accordion .elementor-tab-title .elementor-accordion-icon svg{width:1em;height:1em}.elementor-accordion .elementor-tab-title .elementor-accordion-icon.elementor-accordion-icon-right{float:right;text-align:right}.elementor-accordion .elementor-tab-title .elementor-accordion-icon.elementor-accordion-icon-left{float:left;text-align:left}.elementor-accordion .elementor-tab-title .elementor-accordion-icon .elementor-accordion-icon-closed{display:block}.elementor-accordion .elementor-tab-title .elementor-accordion-icon .elementor-accordion-icon-opened,.elementor-accordion .elementor-tab-title.elementor-active .elementor-accordion-icon-closed{display:none}.elementor-accordion .elementor-tab-title.elementor-active .elementor-accordion-icon-opened{display:block}.elementor-accordion .elementor-tab-content{display:none;padding:15px 20px;border-top:1px solid #d4d4d4}@media (max-width:767px){.elementor-accordion .elementor-tab-title{padding:12px 15px}.elementor-accordion .elementor-tab-title .elementor-accordion-icon{width:1.2em}.elementor-accordion .elementor-tab-content{padding:7px 15px}}</style> <div class="elementor-accordion" role="tablist">
-	<div class="elementor-accordion-item">
-	<div id="elementor-tab-title-6571" class="elementor-tab-title" data-tab="1" role="tab" aria-controls="elementor-tab-content-6571" aria-expanded="false">
-	<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
-	<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
-	<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
-	</span>
-<a class="elementor-accordion-title" href="">BIBLIOTECA VIRTUAL + CURSOS COMPLEMENTARES - BÔNUS POR TEMPO ILIMITADO!</a>
-<div><br>Biblioteca Virtual com apostilas digitais, planilhas de cálculos, etc., NBRs comentadas, são mais de 30 
-	Gigas de Arquivos organizados por pastas, tudo para facilitar suas consultas. (Bliblioteca em constante atualização).​
-	Não Perca, é por tempo limitado!</div>
-</div>
-<div id="elementor-tab-content-65712" class="elementor-tab-content elementor-clearfix" data-tab="12" role="tabpanel" aria-labelledby="elementor-tab-title-65712"><p>Cursos Livres de Engenharia Civil, Estrutural e Arquitetura de Bônus para que você dê um UP em sua Carreira. </p><p>Conteúdo Programático</p><p>Módulo 1: Empreendedorismo, Gestão e Liderança<br />2.Curso Empreendedorismo Básico para Engenheiros e Arquitetos<br />3. Curso Gestão de Projetos<br />4. Curso Gestão de Obras – Livre<br />5. Curso Liderança de Equipes – Livres<br />6. Liderança para Engenheiros (Em Inglês)</p><p>Módulo 2: Engenharia Estrutural</p><p>7. Cair ou não cair. O Segredo de Estruturas (Em Inglês)<br />8. A Engenharia de Estruturas (Em Inglês)<br />9. A arte da engenharia estrutural: Pontes (Em Inglês)<br />10. Introdução à Engenharia Simulações com ANSYS Mechanical (em Inglês)<br />11. Geologia e Geologia de Engenharia (Em Inglês)</p><p>Módulo 3: Design de Edifício de Alto Desempenho </p><p>12. Introdução à Construção Análise de Desempenho<br />13. Energia e Cargas de Aquecimento<br />14. Vento &amp; Airflow Curso de Estratégias<br />15. Clima &amp; Tempo Curso de Análise<br />16. Estudos do Sol com Revit<br />17. Daylighting Estratégias &amp; Analysis<br />18. Análise de Energia em Toda Construção</p><p>Módulo 4: 6 Sigma</p><p>Aprenda o que é Lean-Sigma, conheça o Modelo de Melhoria, aprenda a definir e analisar indicadores e domine o básico dos conhecimentos dessa metodologia.</p><p>19. Curso 6 Sigma – White Belt<br />20. Curso SIX SIGMA</p><hr /><p><i class="fa fa-lock" title="" data-tooltip="tooltip" data-original-title="Privado"></i> <i class="fa fa-globe" title="" data-tooltip="tooltip" data-original-title="Página"></i> <span class="ordem-aula">1.</span> Cursos Livres Engenharia Civil e Estrutural</p><p><i class="fa fa-lock" title="" data-tooltip="tooltip" data-original-title="Privado"></i> <i class="fa fa-list-ol" title="" data-tooltip="tooltip" data-original-title="Prova"></i> Curso Cypecad Online – Especialização em Software para Projeto/Cálculo Estrutural</p></div>
-</div>
-</div>
-</div>
-</div>
 
-<div id="elementor-tab-content-4141" class="elementor-tab-content elementor-clearfix" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-4141"><p>Biblioteca Virtual com apostilas digitais, planilhas de cálculos, etc., NBRs comentadas, são mais de 30 Gigas de Arquivos organizados por pastas, tudo para facilitar suas consultas. (Bliblioteca em constante atualização).​</p><p> </p></div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-4c4c69ed elementor-widget elementor-widget-accordion" data-id="4c4c69ed" data-element_type="widget" data-widget_type="accordion.default">
-<div class="elementor-widget-container">
-<div class="elementor-accordion" role="tablist">
-<div class="elementor-accordion-item">
-<div id="elementor-tab-title-1281" class="elementor-tab-title" data-tab="1" role="tab" aria-controls="elementor-tab-content-1281" aria-expanded="false">
-<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
-<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
-<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
-</span>
-<a class="elementor-accordion-title" href="">Certificado</a>
-<div><br>Precisando de Certificado para horas complementares, Prova de Títulos ou Ascenção Profissional?<br><br>
-Ao término do curso e do projeto proposto no curso seu certificado será emitido pela plataforma de ensino. 
-Além de poder comprovar que se qualificou e está atualizado no mercado de trabalho.
-<br><br>Você poderá usar seu certificado emitido neste curso para:
+<footer style="background-color: #000000; color: #ffffff; text-align: center; padding: 1rem 0;">
+    <p>UPCarreira – Copyright © 2023 - <a href="https://www.upcarreira.com.br/">Visite o site da UPCarreira</a></p>
+</footer>
 
-- Extensão universitária (horas extracurriculares)<br><br>
-- Avaliações de empresas em processos de recrutamento e seleção;<br><br>
-- Avaliações para promoções internas nas empresas;<br><br>
-- Gratificações adicionais conforme plano de carreira;<br><br>
-- Concursos públicos (mediante verificação do edital);<br><br>
-- Provas de títulos (mediante verificação do edital);<br><br>
-- Seleções de mestrado e doutorado;<br><br>
-- E diversas outras necessidades.<br><br>
-</div>
-</div>
-<div id="elementor-tab-content-1281" class="elementor-tab-content elementor-clearfix" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-1281"><p>O <strong>Certificado</strong> tem validade para fins curriculares, provas de títulos (verifique no edital do concurso), atualização e aperfeiçoamento <strong>PROFISSIONAL</strong>, respeitando a carga-horária descrita.</p><p><strong>Com ele você pode:</strong></p><p><strong>»</strong> Completar horas extracurriculares na faculdade; <br /><strong>»</strong> Preencher exigências em concursos públicos; (verifique no edital do concurso, se o mesmo aceita Cursos Livres)<br /><strong>»</strong> Participar de progressão funcional;<br /><strong>»</strong> Provas de título;<br /><strong>»</strong> Ou até mesmo para ascensão profissional. <br /><strong>»</strong> Cursos Livres de Engenharia Civil e Estrutural (Empreendedorismo, Gestão de Projetos, Gestão de Obras, Sites de Emprego, Curso 6 Sigma + Sketchup e <strong>Muito Mais…​</strong></p></div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section class="elementor-section elementor-top-section elementor-element elementor-element-4dbb17c8 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4dbb17c8" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-<div class="elementor-container elementor-column-gap-default">
-<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3cfce711" data-id="3cfce711" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-<div class="elementor-widget-wrap elementor-element-populated">
-<div class="elementor-element elementor-element-2ecb8eba elementor-widget elementor-widget-heading" data-id="2ecb8eba" data-element_type="widget" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h3 class="elementor-heading-title elementor-size-large">Perguntas Frequentes (FAQS)</h3> </div>
-</div>
-<div class="elementor-element elementor-element-3a232f26 elementor-widget elementor-widget-accordion" data-id="3a232f26" data-element_type="widget" data-widget_type="accordion.default">
-<div class="elementor-widget-container">
-<div class="elementor-accordion" role="tablist">
-<div class="elementor-accordion-item">
-<div id="elementor-tab-title-9751" class="elementor-tab-title" data-tab="1" role="tab" aria-controls="elementor-tab-content-9751" aria-expanded="false">
-<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
-<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
-<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
-</span>
-<a class="elementor-accordion-title" href="">OS PROFESSORES TEM CONHECIMENTO DE ENGENHARIA OU SOMENTE DO SOFTWARE?</a>
-<div><br>Sim o professor é um engenheiro civil especilista na área.</div>
-</div>
-<div id="elementor-tab-content-9751" class="elementor-tab-content elementor-clearfix" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-9751"><p>Para os cursos que envolvem cálculo e análise estrutural os professores tem formação em engenharia e também são especialistas no Software que ministram, na sua maioria eles tem títulos de mestres e doutores na área.</p></div>
-</div>
-<div class="elementor-accordion-item">
-<div id="elementor-tab-title-9752" class="elementor-tab-title" data-tab="2" role="tab" aria-controls="elementor-tab-content-9752" aria-expanded="false">
-<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
-<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
-<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
-</span>
-<a class="elementor-accordion-title" href="">GOSTARIA DE SABER SE ENSINA PASSO A PASSO, DESDE A CONFIGURAÇÃO DO SOFTWARE ATÉ A FINALIZAÇÃO DO PROJETO ? E GOSTARIA DE SABER TAMBÉM SE VOCÊS DISPONIBILIZAM PARA DOWNLOAD O SOFTWARE ?</a>
-<div><br>Sim ensina passo a passo, tela por tela, em videoaulas do básico ao avançado. Você terá um experiência incrível ao aprender 
-o software num projeto real praticando seus conhecimentos em uma situação real do dia a dia, nosso método de VQS lhe dará velocidade, 
-qualidade e segurança ao seus projetos. </div>
-</div>
-<div id="elementor-tab-content-9752" class="elementor-tab-content elementor-clearfix" data-tab="2" role="tabpanel" aria-labelledby="elementor-tab-title-9752"><p>Sim, o curso é passo a passo em vídeo aulas, o aluno aprenderá os principais comando no software em situações reais do dia a dia como análise de vigas, lajes, galpões, pontes móveis, linhas de influência, etc, Dê uma olhada para mais detalhes no cronograma do curso. Sim oferecemos o software versão estudante para o aluno poder estudar.</p></div>
-</div>
-<div class="elementor-accordion-item">
-<div id="elementor-tab-title-9753" class="elementor-tab-title" data-tab="3" role="tab" aria-controls="elementor-tab-content-9753" aria-expanded="false">
-<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
-<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
-<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
-</span>
-<a class="elementor-accordion-title" href="">TENHO DIFICULDADE EM CÁLCULO ESTRUTURAL, VOU CONSEGUIR APRENDER MESMO ASSIM?</a>
-<div><br>Sim o professor vai lhe ensinar tudo que for precisa para você relembrar os conceitos teóricos, caso o aluno precise
-oferecemos um material complementar para você lembrar os conceitos básico de cálculo estrutural. </div>
-</div>
-<div id="elementor-tab-content-9753" class="elementor-tab-content elementor-clearfix" data-tab="3" role="tabpanel" aria-labelledby="elementor-tab-title-9753"><p>Sim, pois a melhor maneira de aprender Cálculo Estrutural é através de um software que simula os cálculos de situações reais do dia a dia como esforços em lajes, vigas, colunas em um projeto de edifício por exemplo e te fornece um parâmetro de comparação com os cálculos manuais e métodos tradicionais. Além do mais, oferecemos uma biblioteca virtual de consulta com toda a teoria para o aluno sempre dar uma revisada no conteúdo.</p></div>
-</div>
-<div class="elementor-accordion-item">
-<div id="elementor-tab-title-9754" class="elementor-tab-title" data-tab="4" role="tab" aria-controls="elementor-tab-content-9754" aria-expanded="false">
-<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
-<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
-<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
-</span>
-<a class="elementor-accordion-title" href="">PARA QUEM ESSE CURSO É INDICADO? ESTOU NO PRIMEIRO ANO DE FACULDADE, JÁ POSSO FAZER O CURSO?</a>
-<div><br>Este curso é indicado para estudantes de engenharia em geral, engenheiro civil, engenheiro mecânico, técnico em edificações, arquitetos,
-	e áreas afins.</div>
-
-</div>
-<div id="elementor-tab-content-9754" class="elementor-tab-content elementor-clearfix" data-tab="4" role="tabpanel" aria-labelledby="elementor-tab-title-9754"><p>Para Estudantes que precisam Certificado para atividade Complementar ou extracurricular para completar horas na Faculdade. – Para estudantes, recém-formados que não aprenderam Softwares para Cálculo Estrutural como o Cypecad na faculdade e agora desejam aprender e seguir carreira nessa área de Analista Projetista/ Calculista Estrutural. – Para formados que queiram aprender Cypecad, uns dos principais softwares do mercado para cálculo estrutural e sonham em seguir carreira como Projetista/Calculista Estrutural de Sucesso. – Para quem está comprometido em seguir o nosso método de ensino passo a passo, assistindo às aulas e replicando no Software o projeto proposto pelo professor. – Para quem se compromete a estudar assistindo às aulas durante o período de acesso ao curso. – Para recém-formados que desejam atualização de seu currículo para entrar na área de Projetista/Calculista Estrutural.​</p></div>
-</div>
-<div class="elementor-accordion-item">
-<div id="elementor-tab-title-9755" class="elementor-tab-title" data-tab="5" role="tab" aria-controls="elementor-tab-content-9755" aria-expanded="false">
-<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
-<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
-<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
-</span>
-<a class="elementor-accordion-title" href="">PARA QUEM ESSE CURSO NÃO É INDICADO?
-	<div><br>Este curso não é indicado somente para quem não deseja aprender seguindo nosso passo a passo em videoaulas, não é indicado para
-	quem não deseja se esforçar e aprender uma nova profissão!</div>
-</a>
-</div>
-<div id="elementor-tab-content-9755" class="elementor-tab-content elementor-clearfix" data-tab="5" role="tabpanel" aria-labelledby="elementor-tab-title-9755"><p>Para profissionais experientes que necessitam de consultoria no Software e em seus projetos. – Para quem não está disposto a se comprometer em seguir o nosso passo a passo em vídeo aulas e replicar no software o mesmo projeto proposto pelo professor.</p><p>Para quem não tem tempo de se dedicar pelo menos um tempo durante o período do curso. – Para quem não tem noções de informática para pelo menos instalar a versão estudante do Software.</p></div>
-</div>
-<div class="elementor-accordion-item">
-<div id="elementor-tab-title-9756" class="elementor-tab-title" data-tab="6" role="tab" aria-controls="elementor-tab-content-9756" aria-expanded="false">
-<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
-<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
-<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
-</span>
-<a class="elementor-accordion-title" href="">QUAL A CARGA HORÁRIO DO CURSO?
-	<div><br>A carga hora do curso é 220 horas aulas equivalência em horas com um curos presencial.</div>
-</a>
-</div>
-<div id="elementor-tab-content-9756" class="elementor-tab-content elementor-clearfix" data-tab="6" role="tabpanel" aria-labelledby="elementor-tab-title-9756"><p>Carga horária: +10 horas de vídeo aulas + conteúdo complementar que equivalem a um total de 220 horas/aulas presenciais.</p></div>
-</div>
-<div class="elementor-accordion-item">
-<div id="elementor-tab-title-9757" class="elementor-tab-title" data-tab="7" role="tab" aria-controls="elementor-tab-content-9757" aria-expanded="false">
-<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
-<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
-<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
-</span>
-<a class="elementor-accordion-title" href="">PORQUE ESTUDAR NA UPCARREIRA?
-	<div><br>Somos uma escola especializada em ensino a distância em cursos de tecnologia com os melhores 
-	professores e profissionais atuando na área, nosso método de ensino VQS lhe ensinará mais rápido através da prática 
-de projetos reais do dia a dia. </div>
-</a>
-</div>
-<div id="elementor-tab-content-9757" class="elementor-tab-content elementor-clearfix" data-tab="7" role="tabpanel" aria-labelledby="elementor-tab-title-9757"><p>Estamos no mercado há 10 (dez) anos, já formamos mais de 3.000 alunos no Brasil e Exterior. – Possuímos professores e profissionais experientes e especializados, empenhados em repassar/transmitir ao aluno seus conhecimentos da maneira mais fácil e prática possível, buscamos levar o aluno a explorar melhor sua capacidade de apredizagem, e assim, obter mais qualificação em seu currículo. – Se você busca por especialização, capacitação ou atualização profissional, saiba que estamos preparados para atender as atuais exigências do mercado de trabalho, através de cursos práticos que visam o aprendizado significativo, bem como a aplicação dos seus conceitos do dia a dia do profissional. – Noss missão é fazer com que nossos alunos tenham uma formação ampla e completa em menor tempo, através de cursos especializados nas principais áreas de atuação do mercado de trabalho. – Nossa visão é garantir cursos de qualidade que auxilie pessoas, de diferentes classes sociais, níveis acadêmicos e perfis tais como: alunos universitários, profissionais, professores e melhor idade, a alcançar e solidificarem uma carreira de sucesso impactando o crescimento econômico da nossa sociedade.</p><p>Compromisso com a qualidade de ensino e aprendizagem de modo que nossa sociedade tenha um maior número de profissionais qualificados e gabaritados em diferentes áreas de atuação. Adquira nossos cursos e treinamentos e comprove a qualidade do nosso ensino. Procuramos sempre nos aperfeiçoar com a ajuda de nossos alunos, professores e colaboradores.</p></div>
-</div>
-<div class="elementor-accordion-item">
-<div id="elementor-tab-title-9758" class="elementor-tab-title" data-tab="8" role="tab" aria-controls="elementor-tab-content-9758" aria-expanded="false">
-<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
-<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
-<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
-</span>
-<a class="elementor-accordion-title" href="">EM MÉDIA QUAL O TEMPO VOU CONSEGUIR ME FORMA NO CURSO?
-	<div><br>A formação é relativo ao esforço e tempo dedicado para cada aluno, em média estudando pelo menos 1 hora por semana e fazendo
-	o projeto junto com o professor de 1 a 3 meses você se forma e já pode começar a ganhar dinheiro com seus projetos e ingressar na área.</div>
-</a>
-</div>
-<div id="elementor-tab-content-9758" class="elementor-tab-content elementor-clearfix" data-tab="8" role="tabpanel" aria-labelledby="elementor-tab-title-9758"><p>Pela nossa experiência e prática inovadora de ensino, a formação dos nossos alunos costuma ser entre 30 a 90 dias, porém temos alunos, que por estudarem 1 hora por dia, conseguiram concluir o curso em menos de 1 mês e isso foi e é possível, graças a nossa didática de ensino. Se você precisa se formar em pouco tempo, isso é possível, basta seguir nosso cronograma de ensino.</p></div>
-</div>
-<div class="elementor-accordion-item">
-<div id="elementor-tab-title-9759" class="elementor-tab-title" data-tab="9" role="tab" aria-controls="elementor-tab-content-9759" aria-expanded="false">
-<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
-<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
-<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
-</span>
-<a class="elementor-accordion-title" href="">MÉTODO DE ENSINO - MODALIDADE A DISTANCIA (NOTA IMPORTANTE)</a>
-<div><br>Nossa metodologia de ensino é “faça você mesmo” seus projetos e impressione o mercado com as suas habilidades.</div>
-
-</div>
-<div id="elementor-tab-content-9759" class="elementor-tab-content elementor-clearfix" data-tab="9" role="tabpanel" aria-labelledby="elementor-tab-title-9759"><p>Nosso método de ensino é voltado totalmente para modalidade a distância, prevendo o interesse, a capacidade de adequação, o desempenho e a responsabilidade do aluno em se dedicar aos estudos, conforme sua necessidade, respeitando sua forma de aprendizagem, por esse motivo nossos cursos não são indicados para alunos/pessoas que não se adequam ao ensino a distância, ou que não tenham a capacidade de aprendizagem sem a intervenção de um educador/professor.</p></div>
-</div>
-<div class="elementor-accordion-item">
-<div id="elementor-tab-title-97510" class="elementor-tab-title" data-tab="10" role="tab" aria-controls="elementor-tab-content-97510" aria-expanded="false">
-<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
-<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
-<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
-</span>
- <a class="elementor-accordion-title" href="">QUANDO COMEÇO A ESTUDAR? INFORMAÇÕES SOBRE A LIBERAÇÃO E ACESSO AO CURSO!</a>
- <div><br>Seu curso é liberado na hora assim que confirma o pagamento, você recebe os dados de acesso o curso no seu e-mail. </div>
-
- 
-</div>
-<div id="elementor-tab-content-97510" class="elementor-tab-content elementor-clearfix" data-tab="10" role="tabpanel" aria-labelledby="elementor-tab-title-97510"><p>Assim que o sistema confirmar o pagamento seu acesso ao curso (login e senha) será enviado via e-mail, automaticamente. Normalmente no cartão de crédito no mesmo dia e boleto bancário 1 dia útil.</p></div>
-</div>
-<div class="elementor-accordion-item">
-<div id="elementor-tab-title-97511" class="elementor-tab-title" data-tab="11" role="tab" aria-controls="elementor-tab-content-97511" aria-expanded="false">
-<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
-<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
-<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
-</span>
-<a class="elementor-accordion-title" href="">VOU REALMENTE APRENDER COM O CURSO?</a>
-<div><br>Sim você aprenderá com o nossso curso, nossa metodologia de ensino é inovadora através de 
-	projetos reais do dia a dia, tudo em videoaulas, você assisti o professor fazendo o projeto e replica no seu software, 
-	você aprenderá na prática e poderá “fazer você mesmo” seus projetos e impressionar o mercado com as suas habilidades.</div>
-
-</div>
-<div id="elementor-tab-content-97511" class="elementor-tab-content elementor-clearfix" data-tab="11" role="tabpanel" aria-labelledby="elementor-tab-title-97511"><p>Todas as aulas dos nossos cursos foram elaboradas cuidadosamente, passo a passo e na prática, utilizando projetos reais, onde o aluno assiste o conteúdo, replica no software o que foi ensinado pelo professor e havendo dúvidas, ele pode rever as aulas quantas vezes for necessário, até a assimilação do conteúdo ensinado. Acreditamos, que os alunos que se empenham em praticar o que é ensinado pelo professor, são capazes de aprender o curso, temos como base os nossos alunos que já concluíram o curso, a grande maioria (quase 90%)* aprova o nosso método de ensino. Leia os depoimentos dos alunos no site e comprove. * Pesquisa realizada em 2017</p></div>
-</div>
-<div class="elementor-accordion-item">
-<div id="elementor-tab-title-97512" class="elementor-tab-title" data-tab="12" role="tab" aria-controls="elementor-tab-content-97512" aria-expanded="false">
-<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
-<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
-<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
-</span>
-<a class="elementor-accordion-title" href="">COMO FUNCIONA O SUPORTE?</a>
-<div><br>Você pode mandar suas duvidas direto pela plataforma de ensino abaixo das videoaulas, você também poderia solicitar 
-suporte por e-mail e também notificar ajuda pelo whatspp, o suporte é o forte de todos os nossos cursos, desejamos 
-que você realmente aprenda e estamos sempre preparados para ajudá-lo com suas dúvidas. </div>
-
-</div>
-<div id="elementor-tab-content-97512" class="elementor-tab-content elementor-clearfix" data-tab="12" role="tabpanel" aria-labelledby="elementor-tab-title-97512"><p>No geral o curso gera poucas dúvidas, pois trabalhamos com o método de ensino totalmente na prática, porém caso haja alguma dúvida pertinente ao curso, possuímos um corpo docente formado por professores especialistas nas áreas que ministram os cursos, muitos deles são mestres e doutores. Temos um canal do aluno com um banco de dados com várias perguntas já respondidas por esses especialistas, o aluno poderá consultar as suas dúvidas diretamente neste canal e também sugerir aulas para melhoria do curso caso a sua dúvida não seja encontrada neste canal, ela será analisada e sendo aprovada entra como aulas extras de melhoria do curso dentro do canal do aluno.</p></div>
-</div>
-<div class="elementor-accordion-item">
-<div id="elementor-tab-title-97513" class="elementor-tab-title" data-tab="13" role="tab" aria-controls="elementor-tab-content-97513" aria-expanded="false">
-<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
-<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
-<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
-</span>
-<a class="elementor-accordion-title" href="">TODOS OS CURSOS OFERECEM CERTIFICADOS?</a>
-<div><br>Sim, todos os cursos tem certificado de conclusão. O Certificado tem validade em todo território nacional,
-serve para atividades extracurricular na faculdade ou para completar horas aulas, em casos específicos serve com prova de 
-título em concurso público e também como ascensão profissional. </div>
-
-</div>
-<div id="elementor-tab-content-97513" class="elementor-tab-content elementor-clearfix" data-tab="13" role="tabpanel" aria-labelledby="elementor-tab-title-97513"><p>Sim, ao final de cada um dos cursos o aluno tem direito a um certificado. A quantidade de horas cursadas, são válidas como atividades complementares ou extracurriculares em cursos de nível superior. O aluno terá direito ao certificado após realização da prova final e obtendo nota média igual ou superior a 5.</p></div>
-</div>
-<div class="elementor-accordion-item">
-<div id="elementor-tab-title-97514" class="elementor-tab-title" data-tab="14" role="tab" aria-controls="elementor-tab-content-97514" aria-expanded="false">
-<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
-<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
-<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
-</span>
-<a class="elementor-accordion-title" href="">É UM CURSO ONLINE E OS MÓDULOS SÃO POSTADOS CONFORME UM CRONOGRAMA?</a>
-<div><br>Todos os módulos do curso já foram gravados, você pode assisir a eles conforme seus objetivos e ritmo de estudos. 
-O Curso conforme necessidade é atualizado para se adequar as demandsa do mercado, neste caso os módulos serão adicionados posteriormente
-durante o curso. </div>
-
-</div>
-<div id="elementor-tab-content-97514" class="elementor-tab-content elementor-clearfix" data-tab="14" role="tabpanel" aria-labelledby="elementor-tab-title-97514"><p>Sim é um curso online do básico ao avançado gravado em vídeo aulas. O Curso é ministrado por professor especialista na área e é oferecido integral, onde o aluno pode inicia-lo assim que receber o acesso ao curso no e-mail do aluno (login e senha).</p></div>
-</div>
-<div class="elementor-accordion-item">
-<div id="elementor-tab-title-97515" class="elementor-tab-title" data-tab="15" role="tab" aria-controls="elementor-tab-content-97515" aria-expanded="false">
-<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
-<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
-<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
-</span>
-<a class="elementor-accordion-title" href="">QUAL A GARANTIA QUE TENHO MATRICULANDO NO CURSO?</a>
-<div><br>Você tem a garantia incondicional de 7 dias corridos após pagamento do curso para pedir reembolso segundo
-o código do consumidor.</div>
-
-</div>
-<div id="elementor-tab-content-97515" class="elementor-tab-content elementor-clearfix" data-tab="15" role="tabpanel" aria-labelledby="elementor-tab-title-97515"><p>Sabemos da qualidade do nosso curso, você pode comprovar isso através dos depoimentos dos nossos alunos e os webnários gratuitos na seção do site mini cursos e aulas disponíveis no site como exemplo do curso. A Lei do Arrependimento no artigo 49 da lei do consumidor não se aplica a treinamentos iniciados ou já realizados. </p></div>
-</div>
-<div class="elementor-accordion-item">
-<div id="elementor-tab-title-97516" class="elementor-tab-title" data-tab="16" role="tab" aria-controls="elementor-tab-content-97516" aria-expanded="false">
-<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
-<span class="elementor-accordion-icon-closed"><i class="fas fa-plus"></i></span>
-<span class="elementor-accordion-icon-opened"><i class="fas fa-minus"></i></span>
-</span>
-<a class="elementor-accordion-title" href="">QUAIS AS FORMAS DE PAGAMENTO? É SEGURO O PAGAMENTO?
-	<div><br>Aceitamos todas as formas de pagmaento: Cartão de Crédito em até 12X, PIX, boleto bancário. </div>
-
-</a>
-</div>
-<div id="elementor-tab-content-97516" class="elementor-tab-content elementor-clearfix" data-tab="16" role="tabpanel" aria-labelledby="elementor-tab-title-97516"><p>Sim, os pagamentos em nosso site são seguro, temos o certificado de segurança SSL que você pode comprar com o cadeado no canto inferior direito do seu navegador e o link como https, sites com esse sistema estão criptografados, ou seja, ninguém tem acesso das suas informações pessoais e do seu cartão de crédito por exemplo, somente você e sua operadora de cartão. Trabalhamos também com as maiores empresas do setor, como o pagar-me e ead checkout, pagseguro, paypal que tem grande segurança em negócios digitais, seu pagamento fica retido e só será transferido para a nossa empresa após confirmação que entregamos o curso a você.</p></div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section class="elementor-section elementor-top-section elementor-element elementor-element-26e63144 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="26e63144" data-element_type="section">
-<div class="elementor-container elementor-column-gap-default">
-<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5cea4dc1" data-id="5cea4dc1" data-element_type="column">
-<div class="elementor-widget-wrap elementor-element-populated">
-<div class="elementor-element elementor-element-783ec99c elementor-widget__width-inherit elementor-widget elementor-widget-text-editor" data-id="783ec99c" data-element_type="widget" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-	<footer>
-		<p>UPCarreira &#8211; Copyright © 2023</p>
-		<div>
-		  <a href="https://www.upcarreira.com.br">Visite o site da UPCarreira</a>
-		</div>
-	  </footer>
-	  
-</div>
-</div>
-</div>
-</div>
-</section>
-</div>
-
-<script id="tawk-script" type="text/javascript">
-var Tawk_API = Tawk_API || {};
-var Tawk_LoadStart=new Date();
-(function(){
-	var s1 = document.createElement( 'script' ),s0=document.getElementsByTagName( 'script' )[0];
-	s1.async = true;
-	s1.src = 'https://embed.tawk.to/5bac37129d44382222fc0af1/default';
-	s1.charset = 'UTF-8';
-	s1.setAttribute( 'crossorigin','*' );
-	s0.parentNode.insertBefore( s1, s0 );
-})();
-</script>
-
-
-<script type='text/javascript'>
-        document.addEventListener( 'wpcf7mailsent', function( event ) {
-        if( "fb_pxl_code" in event.detail.apiResponse){
-          eval(event.detail.apiResponse.fb_pxl_code);
-        }
-      }, false );
-    </script>
-
-<div id='fb-pxl-ajax-code'></div><script src='https://upcarreira.com.br/wp-includes/js/imagesloaded.min.js?ver=4.1.4' id='imagesloaded-js'></script>
-<script id='oceanwp-main-js-extra'>
-var oceanwpLocalize = {"nonce":"b9f4f1ec1a","isRTL":"","menuSearchStyle":"drop_down","mobileMenuSearchStyle":"disabled","sidrSource":null,"sidrDisplace":"1","sidrSide":"left","sidrDropdownTarget":"link","verticalHeaderTarget":"link","customSelects":".woocommerce-ordering .orderby, #dropdown_product_cat, .widget_categories select, .widget_archive select, .single-product .variations_form .variations select"};
-</script>
-<script src='https://upcarreira.com.br/wp-content/themes/oceanwp/assets/js/theme.min.js?ver=3.2.0' id='oceanwp-main-js'></script>
-<script src='https://upcarreira.com.br/wp-content/themes/oceanwp/assets/js/drop-down-mobile-menu.min.js?ver=3.2.0' id='oceanwp-drop-down-mobile-menu-js'></script>
-<script src='https://upcarreira.com.br/wp-content/themes/oceanwp/assets/js/drop-down-search.min.js?ver=3.2.0' id='oceanwp-drop-down-search-js'></script>
-<script src='https://upcarreira.com.br/wp-content/themes/oceanwp/assets/js/vendors/magnific-popup.min.js?ver=3.2.0' id='ow-magnific-popup-js'></script>
-<script src='https://upcarreira.com.br/wp-content/themes/oceanwp/assets/js/ow-lightbox.min.js?ver=3.2.0' id='oceanwp-lightbox-js'></script>
-<script src='https://upcarreira.com.br/wp-content/themes/oceanwp/assets/js/vendors/flickity.pkgd.min.js?ver=3.2.0' id='ow-flickity-js'></script>
-<script src='https://upcarreira.com.br/wp-content/themes/oceanwp/assets/js/ow-slider.min.js?ver=3.2.0' id='oceanwp-slider-js'></script>
-<script src='https://upcarreira.com.br/wp-content/themes/oceanwp/assets/js/scroll-effect.min.js?ver=3.2.0' id='oceanwp-scroll-effect-js'></script>
-<script src='https://upcarreira.com.br/wp-content/themes/oceanwp/assets/js/scroll-top.min.js?ver=3.2.0' id='oceanwp-scroll-top-js'></script>
-<script src='https://upcarreira.com.br/wp-content/themes/oceanwp/assets/js/select.min.js?ver=3.2.0' id='oceanwp-select-js'></script>
-<script src='https://upcarreira.com.br/wp-includes/js/wp-embed.min.js?ver=5.8.5' id='wp-embed-js'></script>
-<!--[if lt IE 9]>
-<script src='https://upcarreira.com.br/wp-content/themes/oceanwp/assets/js/third/html5.min.js?ver=3.2.0' id='html5shiv-js'></script>
-<![endif]-->
-<script src='https://upcarreira.com.br/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.6.6' id='elementor-webpack-runtime-js'></script>
-<script src='https://upcarreira.com.br/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.6.6' id='elementor-frontend-modules-js'></script>
-<script src='https://upcarreira.com.br/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2' id='elementor-waypoints-js'></script>
-<script src='https://upcarreira.com.br/wp-includes/js/jquery/ui/core.min.js?ver=1.12.1' id='jquery-ui-core-js'></script>
-<script id='elementor-frontend-js-before'>
-var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Compartilhar no Facebook","shareOnTwitter":"Compartilhar no Twitter","pinIt":"Fixar","download":"Baixar","downloadImage":"Baixar imagem","fullscreen":"Tela cheia","zoom":"Zoom","share":"Compartilhar","playVideo":"Reproduzir v\u00eddeo","previous":"Anterior","next":"Pr\u00f3ximo","close":"Fechar"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Celular","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Celular extra","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet extra","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.6.6","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"a11y_improvements":true,"e_import_export":true,"additional_custom_breakpoints":true,"e_hidden_wordpress_widgets":true,"landing-pages":true,"elements-color-picker":true,"favorite-widgets":true,"admin-top-bar":true},"urls":{"assets":"https:\/\/upcarreira.com.br\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":277,"title":"Curso%20Cypecad%20na%20Pr%C3%A1tica%20-%20Upcarreira%20Educa%C3%A7%C3%A3o","excerpt":"","featuredImage":"https:\/\/upcarreira.com.br\/wp-content\/uploads\/2021\/10\/UpCarreira-Blog-Cursos-de-Engenharia-e-Arquitetura.jpg"}};
-</script>
-<script src='https://upcarreira.com.br/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.6.6' id='elementor-frontend-js'></script>
-<script src='https://upcarreira.com.br/wp-includes/js/underscore.min.js?ver=1.13.1' id='underscore-js'></script>
-<script id='wp-util-js-extra'>
-var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
-</script>
-<script src='https://upcarreira.com.br/wp-includes/js/wp-util.min.js?ver=5.8.5' id='wp-util-js'></script>
-<script id='wpforms-elementor-js-extra'>
-var wpformsElementorVars = {"captcha_provider":"recaptcha","recaptcha_type":"v2"};
-</script>
-<script src='https://upcarreira.com.br/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.7.5.5' id='wpforms-elementor-js'></script>
-
-	
-	</body>
+</body>
 </html>
