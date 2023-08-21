@@ -1,0 +1,194 @@
+/* Reset de estilos e outras configurações */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  /* Estilos do menu suspenso e logo */
+  .top-menu {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .top-menu nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .top-menu nav li {
+    margin-right: 20px;
+  }
+  
+  .top-menu nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .logo img {
+    max-width: 180px;
+    height: auto;
+    margin-left: 20px;
+  }
+
+
+  /* Estilo para a seção de título e descrição */
+.titulo-descricao {
+  
+    color: rgb(0, 0, 0);
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  
+  .titulo-descricao-titulo {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .titulo-descricao-descricao {
+    font-size: 18px;
+  }
+  
+  
+  /* Estilo dos cards */
+  .course-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    width: calc(33.33% - 20px);
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    max-width: 100%;
+  }
+  
+  .card h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .buy-button {
+    display: block; /* Alterado para block */
+    width: fit-content; /* Para que o botão ocupe apenas o espaço necessário */
+    margin: 20px auto 0; /* Centralizar verticalmente e centralizar horizontalmente */
+    background-color: #333;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    text-align: center;
+  }
+  
+  .buy-button:hover {
+    background-color: #22053d;
+  
+  }
+  
+  /* Estilo para a seção de vídeo de apresentação */
+  .video-container {
+    position: relative;
+    padding-bottom: 56.
+  }
+
+/* Estilo para a seção de depoimentos */
+.testimonials-section {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .testimonial-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .testimonial {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+  }
+  
+  .testimonial p {
+    margin-bottom: 10px;
+  }
+  
+  .testimonial strong {
+    color: #333;
+  }
+
+  
+/* Estilo para a seção "Nossos Números" */
+.numbers-section {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .numbers-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .number {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(20% - 20px);
+    margin: 10px;
+  }
+  
+  .number-icon {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .number-value {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .number-label {
+    color: #777;
+    font-size: 14px;
+  }
+
+  /* Rodapé */
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #ffffff;
+    width: 100%; /* Garantir que o rodapé ocupe toda a largura */
+    box-sizing: border-box; /* Evitar problemas com bordas e margens */
+}
