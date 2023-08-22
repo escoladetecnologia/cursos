@@ -1,50 +1,62 @@
-/* Configurações gerais */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 body {
     font-family: Arial, sans-serif;
     margin: 30px;
 }
 
-/* Estilos para cabeçalho */
-header {
-    background-color: #333;
-    color: #fff;
+
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-style:normal;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 20px; /* Espaçamento geral para melhor legibilidade */
+    font-size: 36px;
+    color: #1e293b;
     text-align: center;
-    padding: 1rem 0;
 }
 
-h1, h2, h3, p, .ticket-list, .professor-list, .course-content, .certificado-list, nav a {
+
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-style:normal;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 28px;
+    color: #1e293b;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-family: "Poppins", sans-serif;
+    font-style:normal;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 20px; /* Espaçamento geral para melhor legibilidade */
+    font-size: 24px;
+    color: #1e293b;
+    text-align: left;
+}
+
+p, .ticket-list, .professor-list, .course-content, .certificado-list, nav a {
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
     margin: 20px; /* Espaçamento geral para melhor legibilidade */
-}
-
-h1 {
-    font-size: 36px;
-    color: #eeeff0;
-}
-
-h2 {
-    font-size: 28px;
+    font-size: 21px; /* Ajuste o tamanho da fonte para melhor legibilidade */
     color: #1e293b;
+ 
 }
 
-h3 {
-    font-size: 24px;
-    color: #1e293b;
-}
 
-p, .ticket-list, .professor-list, .course-content, .certificado-list, nav a {
-    font-size: 18px; /* Ajuste o tamanho da fonte para melhor legibilidade */
-    color: #1e293b;
-}
+
+
 
 /* Estilos para lista de tickets */
 .ticket-list {
@@ -53,6 +65,7 @@ p, .ticket-list, .professor-list, .course-content, .certificado-list, nav a {
     margin-right: auto;
     margin-bottom: 20px;
     padding-left: 40px;
+    text-align: left;
 }
 
 .ticket-list li {
@@ -96,7 +109,7 @@ p, .ticket-list, .professor-list, .course-content, .certificado-list, nav a {
     border-radius: 5px;
     font-size: 21px;
     cursor: pointer;
-    margin: 20px auto; /* Ajuste de margem para melhor espaçamento */
+    margin: 40px auto; /* Ajuste de margem para melhor espaçamento */
     text-align: center;
     width: fit-content;
     text-decoration: none;
@@ -128,18 +141,6 @@ p, .ticket-list, .professor-list, .course-content, .certificado-list, nav a {
 
 
 
-/* Estilo responsivo para dispositivos móveis */
-@media (max-width: 540px) {
-    .video-container {
-        text-align: center;
-        padding: 0 20px; /* Adiciona espaços laterais de 20px */
-    }
-    .video-container iframe {
-        width: 100%; /* Ocupa a largura total do elemento pai */
-        max-width: 100%; /* Evita que o vídeo se estenda além do viewport */
-        height: auto; /* Mantém a proporção de aspecto */
-    }
-}
 
 /* Estilo responsivo para tamanhos pequenos de viewport */
 @media (max-width: 768px) {
@@ -154,3 +155,58 @@ p, .ticket-list, .professor-list, .course-content, .certificado-list, nav a {
     }
 }
 
+/* Estilo para o ícone do menu hamburguer */
+.menu-icon {
+    display: none; /* Esconde o ícone em telas maiores */
+    color: rgb(8, 8, 8);
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+/* Estilo para a lista de itens do menu */
+.menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+/* Estilo responsivo para tamanhos pequenos de viewport */
+@media (max-width: 768px) {
+    .menu {
+        display: none; /* Esconde o menu normal */
+        flex-direction: column; /* Alinha os itens verticalmente */
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: #333;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu.show {
+        display: block; /* Mostra o menu quando a classe "show" é aplicada */
+    }
+
+    .menu-icon {
+        display: block; /* Mostra o ícone do menu hamburguer */
+    }
+
+    /* Ajusta o espaçamento vertical entre os links dos botões */
+    .menu li {
+        margin-bottom: 20px; /* Ajuste este valor conforme necessário */
+    }
+    .menu li a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+}
