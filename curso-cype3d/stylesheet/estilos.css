@@ -121,21 +121,6 @@ p, .ticket-list, .professor-list, .course-content, .certificado-list, nav a {
     transform: scale(1.1);
 }
 
-/* Estilos para lista de perguntas frequentes */
-.faq-list {
-    margin-left: 30px;
-    margin-right: auto;
-    padding: 30px;
-}
-
-.faq-item {
-    margin-bottom: 20px;
-}
-
-.faq-item h3 {
-    font-weight: bold;
-    margin-bottom: 10px;
-}
 
 
 
