@@ -1,3 +1,4 @@
+/* Configurações gerais */
 * {
     margin: 0;
     padding: 0;
@@ -6,87 +7,56 @@
 
 body {
     font-family: Arial, sans-serif;
-    padding: 0;
     margin: 30px;
-    
-
 }
 
-
-
-
+/* Estilos para cabeçalho */
 header {
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
-    
+}
+
+h1, h2, h3, p, .ticket-list, .professor-list, .course-content, .certificado-list, nav a {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 20px; /* Espaçamento geral para melhor legibilidade */
 }
 
 h1 {
-    font-family: "Ardina Text", Georgia, Cambria, "Times New Roman", serif;
-    font-style: normal;
-    font-weight: 700;
     font-size: 36px;
-    line-height: 60px;
     color: #eeeff0;
-    
 }
 
 h2 {
-    font-family: "Ardina Text", Georgia, Cambria, "Times New Roman", serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 60px;
+    font-size: 28px;
     color: #1e293b;
-    margin-top: 20px;
-    margin-bottom: 20px;
-   
 }
 
 h3 {
-    font-family: "Ardina Text", Georgia, Cambria, "Times New Roman", serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 60px;
+    font-size: 24px;
     color: #1e293b;
 }
 
-p {
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 38px;
+p, .ticket-list, .professor-list, .course-content, .certificado-list, nav a {
+    font-size: 18px; /* Ajuste o tamanho da fonte para melhor legibilidade */
     color: #1e293b;
-    text-align: left; /* Alinhar parágrafos à esquerda */
-    margin: 20px;
-    
 }
 
+/* Estilos para lista de tickets */
 .ticket-list {
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 21px; /* Ajuste o tamanho do texto aqui */
-    line-height: 28px; /* Ajuste o espaço entre as linhas aqui */
-    color: #1e293b;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 10px;
-    padding-left: 40px;
-    position: relative;
     list-style: none;
-        padding-left: 0;
-        margin-top: 20px;
-        text-align: left;
+    margin-left: 30px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding-left: 40px;
 }
 
 .ticket-list li {
     margin-bottom: 10px;
-    padding-left: 40px;
     position: relative;
 }
 
@@ -97,167 +67,52 @@ p {
     font-size: 18px;
 }
 
+/* Estilos para imagens */
 .image-container {
     display: flex;
     justify-content: center;
     margin-top: 30px;
-  }
-  
-  .image-container img {
-    max-width: 100%; /* Ajusta a largura máxima da imagem para se adaptar ao contêiner */
-    height: auto; /* Mantém a proporção da imagem */
-    
-  }
-
-  .professor-list {
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 38px;
-    color: #1e293b;
-    margin-bottom: 30px;
-    margin: 30px;
-  }
-
-  #professor-curso {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 30px;
-   
 }
 
-
-
-#depoimentos-alunos {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 30px;
-   
+.image-container img {
+    max-width: 100%;
+    height: auto;
 }
 
-
-#conteudo-curso {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 30px;
-   
-}
-
-
-
-
-  /* Estilos para a seção "Conteúdo do Curso" */
-.course-content {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 21px;
-  line-height: 38px;
-  color: #1e293b;
-  margin-left: 30px;
-            margin-right: auto; /* Alinha à margem direita */
-            padding: 30px; /* Adicione preenchimento interno */
-}
-
-.course-content li {
-  margin-bottom: 10px;
-  list-style: disc;
-  list-style-position: outside;
-}
-
-/* Estilos para a seção "Certificado" */
-#certificado {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 30px;
-  }
-  
-  .certificado-list {
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 38px;
-    color: #1e293b;
+/* Estilos para lista de professores e conteúdo do curso */
+.professor-list, .course-content {
     margin-left: 30px;
     margin-right: auto;
-    padding: 0;
-   
-  }
-  
-  .certificado-list li {
-    margin-bottom: 10px;
-  
-    list-style-position: outside;
-  }
-
-
-  
-
-
-nav ul {
-    list-style: none;
-    padding: 0;
+    padding: 30px;
 }
 
-nav li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.banner {
-    background-color: #f2f2f2;
-    text-align: center;
-    padding: 5rem 0;
-}
-
-.descricao {
-    padding: 2rem;
-    background-color: #fff;
-    color: #333;
-}
-
-.cta-button
- {
-    display: block; /* Alterado para "block" para ocupar a largura total */
+/* Estilos para botões de chamada para ação (CTA) */
+.cta-button {
+    display: block;
     background-color: #FF5722;
     color: white;
-    padding: 10px 20px;
+    padding: 15px 20px; /* Ajuste de padding para melhor espaçamento */
     border: none;
     border-radius: 5px;
     font-size: 21px;
     cursor: pointer;
-    margin: 40px auto; /* Centralizar verticalmente e horizontalmente */
-    text-align: center; /* Alinhar o texto ao centro */
-    width: fit-content; /* Define a largura do botão com base no conteúdo */
+    margin: 20px auto; /* Ajuste de margem para melhor espaçamento */
+    text-align: center;
+    width: fit-content;
     text-decoration: none;
-    transition: background-color 0.3s, transform 0.3s; /* Adicionado efeito de transição */
+    transition: background-color 0.3s, transform 0.3s;
 }
 
-.cta-button:hover
- {
-    background-color: #027005; /* Altera a cor para verde quando o mouse passa sobre o botão */
-    transform: scale(1.1); /* Aumenta o tamanho do botão quando o mouse passa sobre ele */
+.cta-button:hover {
+    background-color: #027005;
+    transform: scale(1.1);
 }
 
-
-/* Estilos para a seção "Perguntas Frequentes" */
+/* Estilos para lista de perguntas frequentes */
 .faq-list {
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 38px;
-    color: #1e293b;
     margin-left: 30px;
-    margin-right: auto; /* Alinha à margem direita */
-    padding: 30px; /* Adicione preenchimento interno */
+    margin-right: auto;
+    padding: 30px;
 }
 
 .faq-item {
@@ -267,13 +122,35 @@ nav a {
 .faq-item h3 {
     font-weight: bold;
     margin-bottom: 10px;
-    font-size: 21px;
-}
-
-.faq-item p {
-    margin-bottom: 10px;
 }
 
 
-/* Mais estilos aqui */
+
+
+
+/* Estilo responsivo para dispositivos móveis */
+@media (max-width: 540px) {
+    .video-container {
+        text-align: center;
+        padding: 0 20px; /* Adiciona espaços laterais de 20px */
+    }
+    .video-container iframe {
+        width: 100%; /* Ocupa a largura total do elemento pai */
+        max-width: 100%; /* Evita que o vídeo se estenda além do viewport */
+        height: auto; /* Mantém a proporção de aspecto */
+    }
+}
+
+/* Estilo responsivo para tamanhos pequenos de viewport */
+@media (max-width: 768px) {
+    .video-container {
+        text-align: center;
+        padding: 0 30px; /* Adiciona espaços laterais de 30px */
+    }
+    .video-container iframe {
+        width: 100%; /* Ocupa a largura total do elemento pai */
+        max-width: 100%; /* Evita que o vídeo se estenda além do viewport */
+        height: auto; /* Mantém a proporção de aspecto */
+    }
+}
 
