@@ -131,7 +131,7 @@ body {
   }
 
   .top-menu nav li {
-    margin-right: 20px;
+    margin-right: 30px;
   }
 
   .top-menu nav a {
@@ -154,7 +154,7 @@ body {
   dd {
     margin-bottom: 15px;
   }
-  
+
   .footer {
     background-color: black;
     padding: 20px;
