@@ -1,0 +1,180 @@
+body {
+    font-family: "Arial", sans-serif;
+    margin: 30px;
+  }
+  
+  h1 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 36px;
+    color: #1e293b;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+  
+  h2 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 28px;
+    color: #1e293b;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #1e293b;
+    text-align: center;
+  }
+  
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  
+  p,
+  .ticket-list,
+  .professor-list,
+  .course-content,
+  .certificado-list,
+  nav a {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 21px;
+    color: #1e293b;
+  }
+  
+  .ticket-list {
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .ticket-list li {
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  .ticket-icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 18px;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .cta-button {
+    display: block;
+    background-color: #ff5722;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 21px;
+    cursor: pointer;
+    margin: 20px auto;
+    margin-bottom: 40px;
+    text-align: center;
+    width: fit-content;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #027005;
+    transform: scale(1.1);
+  }
+  
+  .top-menu {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .top-menu nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .top-menu nav li {
+    margin-right: 30px;
+  }
+  
+  .top-menu nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .logo img {
+    max-width: 180px;
+    height: auto;
+    margin-left: 20px;
+  }
+  
+  dt {
+    font-weight: bold;
+  }
+  
+  dd {
+    margin-bottom: 15px;
+  }
+  
+  .footer {
+    background-color: black;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 40px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  @media (max-width: 768px) {
+    .video-container {
+      text-align: center;
+      padding: 0 30px;
+    }
+  
+    .video-container iframe {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+    }
+  
+    .top-menu nav ul {
+      display: none;
+    }
+  
+    .logo {
+      margin: 20px auto;
+    }
+  }
+  
