@@ -158,23 +158,63 @@ body {
   }
   
   @media (max-width: 768px) {
-    .video-container {
-      text-align: center;
-      padding: 0 30px;
+    body {
+      margin: 10px; /* Reduzir as margens para economizar espaço */
     }
   
-    .video-container iframe {
-      width: 100%;
-      max-width: 100%;
-      height: auto;
+    h1 {
+      font-size: 24px; /* Reduzir o tamanho da fonte para h1 */
+      margin-top: 21px;
+      margin-bottom: 10px;
+    }
+  
+    h2 {
+      font-size: 20px; /* Reduzir o tamanho da fonte para h2 */
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+  
+    h3 {
+      font-size: 20px; /* Reduzir o tamanho da fonte para h3 */
+    }
+  
+    .video-container {
+      height: auto; /* Ajustar altura para o conteúdo */
+    }
+  
+    p,
+    .ticket-list,
+    .professor-list,
+    .course-content,
+    .certificado-list,
+    nav a {
+      font-size: 20px; /* Reduzir o tamanho da fonte para o texto principal */
+    }
+  
+    .cta-button {
+      padding: 10px 15px; /* Reduzir o espaçamento do botão */
+      font-size: 21px;
     }
   
     .top-menu nav ul {
-      display: none;
+      display: none; /* Esconder o menu principal */
     }
   
-    .logo {
+    .logo img {
+      max-width: 120px; /* Reduzir o tamanho do logo */
+    }
+
+    .ticket-list li {
+      margin-bottom: 20px; /* Aumentar o espaçamento vertical entre os itens da lista */
+    }
+  
+    .cta-button {
       margin: 20px auto;
+      margin-bottom: 30px; /* Aumentar o espaçamento inferior do botão */
+    }
+  
+    .top-menu nav li {
+      margin-right: 20px; /* Aumentar o espaçamento entre os itens do menu */
     }
   }
   
