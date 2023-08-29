@@ -1,0 +1,193 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-style:normal;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 36px;
+    color: #1e293b;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    
+}
+
+
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-style:normal;
+    font-weight: bold;
+    line-height: 1.5;
+    font-size: 28px;
+    color: #1e293b;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-family: "Poppins", sans-serif;
+    font-style:normal;
+    font-weight: bold;
+    line-height: 1.5;
+    margin: 20px; /* Espaçamento geral para melhor legibilidade */
+    font-size: 24px;
+    color: #1e293b;
+    text-align: left;
+}
+
+p, .ticket-list, .professor-list, .course-content, .certificado-list, nav a {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 20px; /* Espaçamento geral para melhor legibilidade */
+    font-size: 21px; /* Ajuste o tamanho da fonte para melhor legibilidade */
+    color: #1e293b;
+ 
+}
+
+
+
+
+
+/* Estilos para lista de tickets */
+.ticket-list {
+    list-style: none;
+    margin-left: 30px;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    text-align: left;
+}
+
+.ticket-list li {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.ticket-icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 18px;
+}
+
+/* Estilos para imagens */
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para lista de professores e conteúdo do curso */
+.professor-list, .course-content {
+    margin-left: 30px;
+    margin-right: auto;
+    padding: 30px;
+}
+
+/* Estilos para botões de chamada para ação (CTA) */
+.cta-button {
+    display: block;
+    background-color: #FF5722;
+    color: white;
+    padding: 15px 20px; /* Ajuste de padding para melhor espaçamento */
+    border: none;
+    border-radius: 5px;
+    font-size: 21px;
+    cursor: pointer;
+    margin: 40px auto; /* Ajuste de margem para melhor espaçamento */
+    text-align: center;
+    width: fit-content;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #027005;
+    transform: scale(1.1);
+}
+ 
+  /* Estilos do menu suspenso e logo */
+  .top-menu {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .top-menu nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .top-menu nav li {
+    margin-right: 20px;
+  }
+  
+  .top-menu nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .logo img {
+    max-width: 180px;
+    height: auto;
+    margin-left: 20px;
+  }
+
+
+
+.footer {
+    background-color: black;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 40px;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* Estilo responsivo para tamanhos pequenos de viewport */
+@media (max-width: 768px) {
+    .video-container {
+        text-align: center;
+        padding: 0 30px; /* Adiciona espaços laterais de 30px */
+    }
+    .video-container iframe {
+        width: 100%; /* Ocupa a largura total do elemento pai */
+        max-width: 100%; /* Evita que o vídeo se estenda além do viewport */
+        height: auto; /* Mantém a proporção de aspecto */
+    }
+}
+
+/* Media query para ajustar logotipo centralizado em dispositivos móveis */
+@media (max-width: 768px) {
+    .top-menu nav ul {
+        display: none; /* Oculta a navegação em dispositivos móveis */
+    }
+
+    .logo {
+        margin: 20px auto; /* Adiciona espaçamento vertical */
+    }
+}
