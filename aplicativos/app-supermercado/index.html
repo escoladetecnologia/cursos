@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>App Lista de Compras - Supermercado</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./script.js"></script>
+
+</head>
+
+<body>
+    <h1>App Lista de Compras - Supermercado</h1>
+    <form id="form">
+        <label for="nome">Nome do Produto:</label><br>
+        <input type="text" id="nome" name="nome"><br><br>
+        <label for="preco">Preço:</label><br>
+        <input type="text" id="preco" name="preco"><br><br>
+        <input type="submit" value="Adicionar">
+    </form><br>
+
+    <h4>Itens Pré-definidos:</h4>
+    <table id="itens-predefinidos">
+        <tr>
+            <th>Selecionar</th>
+            <th>Item</th>
+            <th>Preço</th>
+        </tr>
+      <tr>
+    <td><input type="checkbox" data-item="Arroz 1 kg" data-preco="5.17"></td>
+    <td>Arroz 1 kg</td>
+    <td>R$ 5,17</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" data-item="Feijão 1 kg" data-preco="7.99"></td>
+    <td>Feijão 1 kg</td>
+    <td>R$ 7,99</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" data-item="Açúcar 1 kg" data-preco="4.99"></td>
+    <td>Açúcar 1 kg</td>
+    <td>R$ 4,99</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" data-item="Óleo 900 ml" data-preco="10.99"></td>
+    <td>Óleo 900 ml</td>
+    <td>R$ 10,99</td>
+  </tr>
+    <tr>
+    <td><input type="checkbox" data-item="Óleo 900 ml" data-preco="22.90"></td>
+    <td>Azeite extra virgem Cancioneiro 500 ml</td>
+    <td>R$ 22,90</td>
+  </tr>
+
+     <tr>
+    <td><input type="checkbox" data-item="Óleo 900 ml" data-preco="3,39"></td>
+    <td>Macarrao com ovos 500g Adria</td>
+    <td>R$ 3,39</td>
+  </tr>
+
+    <tr>
+    <td><input type="checkbox" data-item="Óleo 900 ml" data-preco="1,29"></td>
+    <td>Molho de tomate Ole 300g</td>
+    <td>R$ 1,29</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" data-item="Café 500 g" data-preco="17.99"></td>
+    <td>Café 500 g</td>
+    <td>R$ 17,99</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" data-item="Leite 1 litro" data-preco="4.99"></td>
+    <td>Leite 1 litro</td>
+    <td>R$ 4,99</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" data-item="Biscoito 500 g" data-preco="7.99"></td>
+    <td>Biscoito 500 g</td>
+    <td>R$ 7,99</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" data-item="Farinha de trigo 1 kg" data-preco="4.99"></td>
+    <td>Farinha de trigo 1 kg</td>
+    <td>R$ 4,99</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" data-item="Carne 1 kg" data-preco="27.99"></td>
+    <td>Carne Miolo de Acem 1 kg</td>
+    <td>R$ 27,99</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" data-item="Carne 1 kg" data-preco="7.49"></td>
+    <td>Frango Resfriado 1 kg</td>
+    <td>R$ 7,49</td>
+  </tr>
+   <tr>
+    <td><input type="checkbox" data-item="Carne 1 kg" data-preco="11.98"></td>
+    <td>Pernil Suino 1 kg</td>
+    <td>R$ 11,98</td>
+  </tr>
+    <tr>
+    <td><input type="checkbox" data-item="Carne 1 kg" data-preco="8.99"></td>
+    <td>Salsicha Seara</td>
+    <td>R$ 8,99</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" data-item="Carne 1 kg" data-preco="15.99"></td>
+    <td>Linguiça Toscana Seara 1 kg</td>
+    <td>R$ 15,99</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" data-item="Tomate 1 kg" data-preco="4.99"></td>
+    <td>Tomate 1 kg</td>
+    <td>R$ 4,99</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" data-item="Cebola 1 kg" data-preco="3.99"></td>
+    <td>Cebola 1 kg</td>
+    <td>R$ 3,99</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" data-item="Pão 500 g" data-preco="4.99"></td>
+    <td>Pão 500 g</td>
+    <td>R$ 4,99</td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" data-item="Banana 1 kg" data-preco="2.99"></td>
+    <td>Banana 1 kg</td>
+    <td>R$ 2,99</td>
+  </tr>
+
+   <tr>
+    <td><input type="checkbox" data-item="Banana 1 kg" data-preco="2.45"></td>
+    <td>Presunto Seara 100g</td>
+    <td>R$ 2,45</td>
+  </tr>
+
+  
+   <tr>
+    <td><input type="checkbox" data-item="Banana 1 kg" data-preco="3.45"></td>
+    <td>Queijo Mussarala 100g</td>
+    <td>R$ 3,45</td>
+  </tr>
+
+  <tr>
+    <td><input type="checkbox" data-item="Banana 1 kg" data-preco="12.90"></td>
+    <td>Papel Higienico Paloma 30mts</td>
+    <td>R$ 12,90</td>
+  </tr>
+
+
+  <tr>
+    <td><input type="checkbox" data-item="Banana 1 kg" data-preco="4.39"></td>
+    <td>Agua Sanitaria 1L</td>
+    <td>R$ 4,39</td>
+  </tr>
+
+        <!-- Adicione mais itens pré-definidos aqui -->
+    </table><br>
+
+    <h4>Sua Lista de Compras:</h4>
+    <table id="lista">
+        <tr>
+            <th>Nome do Produto</th>
+            <th>Preço</th>
+            <th></th>
+        </tr>
+    </table><br>
+
+    <h3>Valor Total: R$<span id="total">0,00</span></h3>
+
+</body>
+
+<footer><a href="https://www.upcarreira.com.br" target="_blank">Upcarreira - Escola Online de Tecnologia</a> -  </footer>
+</html>
