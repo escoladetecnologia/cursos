@@ -3,13 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Exemplo de Requisição Axios</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </head>
 <body>
 
 <script>
-    const axios = require('axios');
+    // Seu código Axios aqui...
     let data = JSON.stringify({
-        // Seu objeto JSON aqui...
+        "query": [
+            {
+                "query": "Qual é a resposta para a vida, o universo e tudo mais?",
+                // Resto do seu objeto JSON aqui...
+            }
+        ]
     });
 
     let config = {
