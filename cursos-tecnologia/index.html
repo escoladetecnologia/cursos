@@ -42,19 +42,23 @@
  
   <header class="top-menu">
     <div class="logo">
-      <img src="./img/Cursos_Online_de_Tecnologia_Logo_Upcarreira.png" alt="Upcarreira - Escola Online de Tecnologia">
+        <img src="./img/Cursos_Online_de_Tecnologia_Logo_Upcarreira.png" alt="Upcarreira - Escola Online de Tecnologia">
     </div>
-    <nav>
-      <ul>
-        <li><a href="https://www.upcarreira.com.br">Home</a></li>
-        <li><a href="https://www.upcarreira.com.br/cursos-engenharia-civil/index.html" target="_blank">Cursos Engenharia Civil</a></li>
-        <li><a href="#marketing">Cursos Marketing Digital</a></li>
-        <li><a href="#negocios">Cursos Negócios</a></li>
-        <li><a href="https://app.nutror.com/" target="_blank">Login (Alunos)</a></li>
-        <li><a href="https://www.upcarreira.com.br/contato/index.html" target="_blank">Contato</a></li>
-      </ul>
+    <nav id="menu">
+      <div class="hamburguer-icon">
+        <!-- Substitua o ícone de hamburguer pelo código do Font Awesome -->
+      
+    </div>
+        <ul>
+            <li><a href="#tecnologia">Cursos Tecnologia</a></li>
+            <li><a href="https://www.upcarreira.com.br/cursos-engenharia-civil/index.html" target="_blank">Cursos Engenharia Civil</a></li>
+            <li><a href="#marketing">Cursos Marketing Digital</a></li>
+            <li><a href="#negocios">Cursos Negócios</a></li>
+            <li><a href="https://app.nutror.com/" target="_blank">Login (Alunos)</a></li>
+            <li><a href="https://www.upcarreira.com.br/contato/index.html" target="_blank">Contato</a></li>
+        </ul>
     </nav>
-  </header>
+</header>
 
   <section class="titulo-descricao">
     <div class="titulo-descricao-container">
@@ -267,5 +271,13 @@
 </footer>
 
 <script type="text/javascript">(function(n,r,l,d){try{var h=r.head||r.getElementsByTagName("head")[0],s=r.createElement("script");s.defer=true;s.setAttribute("type","text/javascript");s.setAttribute("src",l);n.neuroleadId=d;h.appendChild(s);}catch(e){}})(window,document,"https://cdn.leadster.com.br/neurolead/neurolead.min.js", "eCaRxnKPsjYuPiOKortVJAS0u");</script> 
+<script>
+  // JavaScript para alternar a classe menu-aberto quando o ícone de hamburguer é clicado
+document.querySelector('.hamburguer-icon').addEventListener('click', function () {
+    document.querySelector('#menu').classList.toggle('menu-aberto');
+});
+
+</script>
+
 </body>
 </html>
