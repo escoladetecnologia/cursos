@@ -35,7 +35,18 @@
         p {
             font-size: 18px;
         }
+
+        pre {
+            font-family: monospace;
+            white-space: pre-wrap;
+            background-color: #f9f9f9;
+            padding: 10px;
+            border: 1px solid #ddd;
+            overflow-x: auto;
+        }
     </style>
+    <!-- Vincule o arquivo JavaScript -->
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
@@ -43,8 +54,13 @@
     </header>
     <div class="container">
         <p>Aqui você pode ver as partidas das competições às quais você está inscrito.</p>
-        <p>Para acessar as partidas, faça uma chamada para a API usando o token pessoal fornecido.</p>
+        <p>Para acessar as partidas, faça uma chamada para a API usando o token pessoal fornecido:</p>
+        <pre id="api-data"></pre>
     </div>
-    <script src="script.js"></script>
+
+    <!-- Chama a função buscarPartidas ao carregar a página -->
+    <script>
+        window.onload = buscarPartidas;
+    </script>
 </body>
 </html>
