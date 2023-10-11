@@ -12,10 +12,12 @@ h1 {
     font-style:normal;
     font-weight: bold;
     line-height: 1.5;
-    margin: 20px; /* Espaçamento geral para melhor legibilidade */
     font-size: 36px;
     color: #1e293b;
     text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    
 }
 
 
@@ -120,11 +122,50 @@ p, .ticket-list, .professor-list, .course-content, .certificado-list, nav a {
     background-color: #027005;
     transform: scale(1.1);
 }
+ 
+  /* Estilos do menu suspenso e logo */
+  .top-menu {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .top-menu nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .top-menu nav li {
+    margin-right: 20px;
+  }
+  
+  .top-menu nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .logo img {
+    max-width: 180px;
+    height: auto;
+    margin-left: 20px;
+  }
 
 
 
-
-
+.footer {
+    background-color: black;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 40px;
+    font-family: "Poppins", sans-serif;
+}
 
 
 /* Estilo responsivo para tamanhos pequenos de viewport */
@@ -140,58 +181,13 @@ p, .ticket-list, .professor-list, .course-content, .certificado-list, nav a {
     }
 }
 
-/* Estilo para o ícone do menu hamburguer */
-.menu-icon {
-    display: none; /* Esconde o ícone em telas maiores */
-    color: rgb(8, 8, 8);
-    font-size: 24px;
-    cursor: pointer;
-    margin-right: 15px;
-}
-
-/* Estilo para a lista de itens do menu */
-.menu {
-    list-style: none;
-    padding: 0;
-    display: flex;
-}
-
-.menu li {
-    margin-right: 10px;
-}
-
-.menu li a {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-}
-
-/* Estilo responsivo para tamanhos pequenos de viewport */
+/* Media query para ajustar logotipo centralizado em dispositivos móveis */
 @media (max-width: 768px) {
-    .menu {
-        display: none; /* Esconde o menu normal */
-        flex-direction: column; /* Alinha os itens verticalmente */
-        position: absolute;
-        top: 60px;
-        right: 0;
-        background-color: #333;
-        width: 100%;
-        text-align: center;
+    .top-menu nav ul {
+        display: none; /* Oculta a navegação em dispositivos móveis */
     }
 
-    .menu.show {
-        display: block; /* Mostra o menu quando a classe "show" é aplicada */
-    }
-
-    .menu-icon {
-        display: block; /* Mostra o ícone do menu hamburguer */
-    }
-
-    /* Ajusta o espaçamento vertical entre os links dos botões */
-    .menu li {
-        margin-bottom: 20px; /* Ajuste este valor conforme necessário */
-    }
-    .menu li a {
-        text-decoration: none;
-        color: rgb(255, 255, 255);
+    .logo {
+        margin: 20px auto; /* Adiciona espaçamento vertical */
     }
 }
