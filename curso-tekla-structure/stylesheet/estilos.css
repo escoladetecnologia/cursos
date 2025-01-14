@@ -1,193 +1,97 @@
-
-
 body {
-    font-family: Arial, sans-serif;
-    margin: 30px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
 }
 
-
-
-h1 {
-    font-family: "Poppins", sans-serif;
-    font-style:normal;
-    font-weight: bold;
-    line-height: 1.5;
-    font-size: 36px;
-    color: #1e293b;
-    text-align: center;
-    margin-bottom: 20px;
-    margin-top: 40px;
-    
-}
-
-
-
-h2 {
-    font-family: "Poppins", sans-serif;
-    font-style:normal;
-    font-weight: bold;
-    line-height: 1.5;
-    font-size: 28px;
-    color: #1e293b;
-    text-align: left;
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-
-h3 {
-    font-family: "Poppins", sans-serif;
-    font-style:normal;
-    font-weight: bold;
-    line-height: 1.5;
-    margin: 20px; /* Espaçamento geral para melhor legibilidade */
-    font-size: 24px;
-    color: #1e293b;
-    text-align: left;
-}
-
-p, .ticket-list, .professor-list, .course-content, .certificado-list, nav a {
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.5;
-    margin: 20px; /* Espaçamento geral para melhor legibilidade */
-    font-size: 21px; /* Ajuste o tamanho da fonte para melhor legibilidade */
-    color: #1e293b;
- 
-}
-
-
-
-
-
-/* Estilos para lista de tickets */
-.ticket-list {
-    list-style: none;
-    margin-left: 30px;
-    margin-right: auto;
-    margin-bottom: 20px;
-    padding-left: 40px;
-    text-align: left;
-}
-
-.ticket-list li {
-    margin-bottom: 10px;
-    position: relative;
-}
-
-.ticket-icon {
-    position: absolute;
-    left: 0;
+.sticky-header {
+    position: sticky;
     top: 0;
-    font-size: 18px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
 }
 
-/* Estilos para imagens */
-.image-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-}
-
-.image-container img {
-    max-width: 100%;
-    height: auto;
-}
-
-/* Estilos para lista de professores e conteúdo do curso */
-.professor-list, .course-content {
-    margin-left: 30px;
-    margin-right: auto;
-    padding: 30px;
-}
-
-/* Estilos para botões de chamada para ação (CTA) */
-.cta-button {
-    display: block;
-    background-color: #FF5722;
-    color: white;
-    padding: 15px 20px; /* Ajuste de padding para melhor espaçamento */
-    border: none;
-    border-radius: 5px;
-    font-size: 21px;
-    cursor: pointer;
-    margin: 40px auto; /* Ajuste de margem para melhor espaçamento */
-    text-align: center;
-    width: fit-content;
-    text-decoration: none;
-    transition: background-color 0.3s, transform 0.3s;
-}
-
-.cta-button:hover {
-    background-color: #027005;
-    transform: scale(1.1);
-}
- 
-  /* Estilos do menu suspenso e logo */
-  .top-menu {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
+.sticky-header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  
-  .top-menu nav ul {
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.main-menu ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
-  }
-  
-  .top-menu nav li {
-    margin-right: 20px;
-  }
-  
-  .top-menu nav a {
-    color: white;
+    gap: 20px;
+}
+
+.main-menu a {
     text-decoration: none;
-  }
-  
-  .logo img {
-    max-width: 180px;
-    height: auto;
-    margin-left: 20px;
-  }
+    color: #333;
+    font-weight: 700;
+    transition: color 0.3s;
+}
 
+.main-menu a:hover {
+    color: #007BFF;
+}
 
+.banner {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to right, #007BFF, #00C6FF);
+    color: #fff;
+}
+
+.banner h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #FF5722;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #E64A19;
+}
+
+.section {
+    padding: 40px 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 40px;
+}
 
 .footer {
-    background-color: black;
-    padding: 20px;
-    color: white;
     text-align: center;
-    font-size: 18px;
-    margin-top: 40px;
-    font-family: "Poppins", sans-serif;
-}
-
-
-/* Estilo responsivo para tamanhos pequenos de viewport */
-@media (max-width: 768px) {
-    .video-container {
-        text-align: center;
-        padding: 0 30px; /* Adiciona espaços laterais de 30px */
-    }
-    .video-container iframe {
-        width: 100%; /* Ocupa a largura total do elemento pai */
-        max-width: 100%; /* Evita que o vídeo se estenda além do viewport */
-        height: auto; /* Mantém a proporção de aspecto */
-    }
-}
-
-/* Media query para ajustar logotipo centralizado em dispositivos móveis */
-@media (max-width: 768px) {
-    .top-menu nav ul {
-        display: none; /* Oculta a navegação em dispositivos móveis */
-    }
-
-    .logo {
-        margin: 20px auto; /* Adiciona espaçamento vertical */
-    }
+    padding: 20px;
+    background-color: #f5f5f5;
+    font-size: 0.9rem;
 }
